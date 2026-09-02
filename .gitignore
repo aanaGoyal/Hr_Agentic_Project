@@ -1,3 +1,6 @@
-".env"  echo "__pycache__/"  echo "*.pyc"  echo ".myenv/" 
+.env
 .env.example
+.myenv/
 .ipynb_checkpoints/
+__pycache__/
+*.pyc
