@@ -1,0 +1,8 @@
+OccupationID,RoleName,Department
+1,Sales Executive,Sales
+2,Data Analyst,Research & Development
+3,ML Engineer,Research & Development
+4,HR Executive,Human Resources
+5,Research Scientist,Research & Development
+6,Software Engineer,IT
+7,MLOps Engineer,IT

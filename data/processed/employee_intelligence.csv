@@ -1,0 +1,601 @@
+Employee_ID,Dept,Attrition_Prob,Risk,Engagement,Role,Skill_Gap,Gap_Severity,Recommendation
+1,IT,0.96,HIGH,81,Sales Executive,"Communication, Excel, Negotiation",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+2,IT,0.815,LOW,61,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+3,IT,0.965,HIGH,60,Software Engineer,"Java, System Design",3,"Learn System Design -- ""System Design for Scalable Applications"""
+4,Research & Development,0.94,MEDIUM,59,Software Engineer,"AWS, Docker, Kubernetes, Python",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+5,IT,0.945,HIGH,67,Software Engineer,"AWS, Docker, Kubernetes",4,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+6,IT,0.935,MEDIUM,52,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+7,Research & Development,0.92,MEDIUM,76,Sales Executive,"CRM Tools, Salesforce",3,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+8,Human Resources,0.935,MEDIUM,81,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+9,Sales,0.945,HIGH,79,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+10,IT,0.095,LOW,83,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+11,Research & Development,0.945,HIGH,89,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+12,Human Resources,0.975,HIGH,65,ML Engineer,"Docker, PyTorch",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+13,Human Resources,0.91,MEDIUM,93,Sales Executive,Salesforce,2,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+14,IT,0.665,LOW,52,Software Engineer,Kubernetes,2,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+15,Research & Development,0.89,MEDIUM,66,MLOps Engineer,"Docker, Terraform",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+16,Research & Development,0.895,MEDIUM,79,Data Analyst,"Data Visualization, SQL, Tableau",3,"Learn Data Visualization -- ""Storytelling with Data Visualization"""
+17,Sales,0.895,MEDIUM,85,ML Engineer,Python,1,"Learn Python -- ""Python for Data & ML Practitioners"""
+18,Research & Development,0.86,LOW,69,Data Analyst,Excel,2,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+19,IT,0.87,LOW,27,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+20,Sales,0.855,LOW,53,Sales Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+21,Research & Development,0.77,LOW,68,Sales Executive,"CRM Tools, Negotiation",3,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+22,IT,0.95,HIGH,79,Software Engineer,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+23,Research & Development,0.77,LOW,63,Data Analyst,"SQL, Tableau",2,"Learn SQL -- ""Practical SQL for Analysts"""
+24,IT,0.945,HIGH,43,MLOps Engineer,"CI/CD, Cloud, Kubernetes, Terraform",5,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+25,Sales,0.93,MEDIUM,63,MLOps Engineer,"Cloud, Terraform",2,"Learn Cloud -- ""Cloud Computing Foundations"""
+26,IT,0.23,LOW,87,ML Engineer,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+27,Research & Development,0.195,LOW,64,Research Scientist,"AWS, Python, Research Methods, Statistics",7,"Learn Python -- ""Python for Data & ML Practitioners"""
+28,Human Resources,0.84,LOW,88,Sales Executive,Salesforce,2,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+29,Research & Development,0.29,LOW,52,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+30,Research & Development,0.265,LOW,78,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+31,IT,0.28,LOW,45,Data Analyst,"Data Visualization, Excel",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+32,Human Resources,0.345,LOW,63,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+33,Research & Development,0.885,MEDIUM,76,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+34,Research & Development,0.885,MEDIUM,82,ML Engineer,"MLOps, PyTorch, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+35,Sales,0.33,LOW,60,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+36,IT,0.255,LOW,95,Sales Executive,"Communication, Excel, Negotiation",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+37,Research & Development,0.925,MEDIUM,88,Software Engineer,"AWS, System Design",3,"Learn System Design -- ""System Design for Scalable Applications"""
+38,Sales,0.105,LOW,66,Software Engineer,Java,1,"Learn Java -- ""Java for Backend Engineers"""
+39,IT,0.865,LOW,54,Data Analyst,"SQL, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+40,IT,0.515,LOW,65,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+41,IT,0.905,MEDIUM,73,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+42,IT,0.92,MEDIUM,67,HR Executive,HR Compliance,1,"Learn HR Compliance -- ""HR Compliance Essentials"""
+43,IT,0.93,MEDIUM,79,Sales Executive,"Negotiation, Salesforce",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+44,Sales,0.275,LOW,53,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+45,Sales,0.965,HIGH,70,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+46,IT,0.925,MEDIUM,71,MLOps Engineer,"AWS, CI/CD, Cloud, Kubernetes, Terraform",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+47,IT,0.965,HIGH,86,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+48,Research & Development,0.16,LOW,53,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+49,IT,0.835,LOW,100,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+50,Sales,0.93,MEDIUM,68,ML Engineer,"MLOps, Python, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+51,Research & Development,0.91,MEDIUM,66,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+52,Sales,0.9,MEDIUM,75,ML Engineer,"Docker, MLOps, PyTorch",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+53,IT,0.96,HIGH,63,ML Engineer,"AWS, MLOps, Machine Learning, PyTorch",4,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+54,IT,0.965,HIGH,67,ML Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+55,Sales,0.195,LOW,72,Software Engineer,System Design,2,"Learn System Design -- ""System Design for Scalable Applications"""
+56,IT,0.84,LOW,78,ML Engineer,"PyTorch, Python, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+57,Research & Development,0.88,LOW,61,ML Engineer,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+58,Research & Development,0.915,MEDIUM,70,Research Scientist,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+59,IT,0.9,MEDIUM,71,Software Engineer,"AWS, Java, Kubernetes, Python",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+60,IT,0.91,MEDIUM,82,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+61,Sales,0.69,LOW,57,Data Analyst,"SQL, Tableau",2,"Learn SQL -- ""Practical SQL for Analysts"""
+62,IT,0.97,HIGH,90,ML Engineer,"MLOps, Machine Learning, PyTorch",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+63,Human Resources,0.28,LOW,66,MLOps Engineer,Terraform,1,"Learn Terraform -- ""Infrastructure as Code with Terraform"""
+64,Research & Development,0.94,MEDIUM,99,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+65,IT,0.73,LOW,29,ML Engineer,"AWS, Machine Learning, Python, Statistics",5,"Learn Statistics -- ""Applied Statistics for Business"""
+66,Research & Development,0.91,MEDIUM,66,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+67,Sales,0.965,HIGH,82,ML Engineer,PyTorch,1,"Learn PyTorch -- ""Deep Learning with PyTorch"""
+68,Sales,0.76,LOW,67,MLOps Engineer,"AWS, CI/CD, Docker",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+69,IT,0.72,LOW,52,Sales Executive,"CRM Tools, Excel",2,"Learn CRM Tools -- ""CRM Best Practices"""
+70,Sales,0.655,LOW,60,Research Scientist,"Python, Research Methods, Statistics",6,"Learn Python -- ""Python for Data & ML Practitioners"""
+71,IT,0.79,LOW,100,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+72,IT,0.94,MEDIUM,96,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+73,Sales,0.175,LOW,47,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+74,Research & Development,0.155,LOW,65,Data Analyst,"SQL, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+75,Sales,0.97,HIGH,82,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+76,Sales,0.105,LOW,97,MLOps Engineer,"Cloud, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+77,Sales,0.93,MEDIUM,76,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+78,Sales,0.955,HIGH,62,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+79,IT,0.195,LOW,65,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+80,Research & Development,0.94,MEDIUM,84,Research Scientist,"Python, Research Methods, Statistics",6,"Learn Python -- ""Python for Data & ML Practitioners"""
+81,Sales,0.955,HIGH,96,Data Analyst,"Data Visualization, Excel",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+82,IT,0.765,LOW,54,HR Executive,"Communication, HR Compliance",2,"Learn Communication -- ""Effective Workplace Communication"""
+83,Research & Development,0.815,LOW,62,MLOps Engineer,"CI/CD, Docker, MLOps",5,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+84,Sales,0.8,LOW,92,Sales Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+85,Human Resources,0.485,LOW,63,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+86,Sales,0.63,LOW,55,Research Scientist,"AWS, Python, Research Methods, Statistics",7,"Learn Python -- ""Python for Data & ML Practitioners"""
+87,Research & Development,0.97,HIGH,63,HR Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+88,Research & Development,0.785,LOW,69,Data Analyst,"Data Visualization, Excel, SQL",4,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+89,Sales,0.175,LOW,86,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+90,IT,0.8,LOW,76,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+91,Sales,0.795,LOW,86,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+92,Human Resources,0.95,HIGH,44,HR Executive,"Communication, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+93,Sales,0.27,LOW,68,Research Scientist,"AWS, Python, Research Methods, Statistics",7,"Learn Python -- ""Python for Data & ML Practitioners"""
+94,Research & Development,0.915,MEDIUM,78,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+95,Research & Development,0.315,LOW,96,Data Analyst,"Excel, SQL, Tableau",4,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+96,Sales,0.885,MEDIUM,54,Data Analyst,"Excel, Statistics, Tableau",5,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+97,IT,0.315,LOW,92,Sales Executive,CRM Tools,1,"Learn CRM Tools -- ""CRM Best Practices"""
+98,Human Resources,0.32,LOW,77,ML Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+99,IT,0.09,LOW,65,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+100,Sales,0.25,LOW,64,ML Engineer,"Docker, Machine Learning, Statistics",5,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+101,Sales,0.235,LOW,67,Research Scientist,"AWS, Research Methods",3,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+102,Sales,0.875,LOW,69,Data Analyst,Tableau,1,"Learn Tableau -- ""Data Visualization with Tableau"""
+103,Research & Development,0.95,HIGH,63,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+104,Human Resources,0.095,LOW,93,Software Engineer,"Docker, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+105,Sales,0.945,HIGH,64,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+106,Human Resources,0.96,HIGH,64,HR Executive,"Communication, HR Compliance",2,"Learn Communication -- ""Effective Workplace Communication"""
+107,Sales,0.885,MEDIUM,98,Software Engineer,"Kubernetes, Python",4,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+108,Sales,0.925,MEDIUM,49,MLOps Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+109,IT,0.785,LOW,100,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+110,Sales,0.935,MEDIUM,52,HR Executive,"Conflict Resolution, Excel, HR Compliance, Workday",5,"Learn Workday -- ""Workday HCM Fundamentals"""
+111,Research & Development,0.93,MEDIUM,58,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+112,Research & Development,0.955,HIGH,93,ML Engineer,Python,1,"Learn Python -- ""Python for Data & ML Practitioners"""
+113,Research & Development,0.985,HIGH,69,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+114,IT,0.975,HIGH,64,Software Engineer,Kubernetes,2,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+115,Research & Development,0.89,MEDIUM,43,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+116,Research & Development,0.865,LOW,60,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+117,Research & Development,0.64,LOW,64,HR Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+118,Human Resources,0.965,HIGH,70,ML Engineer,MLOps,1,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+119,IT,0.865,LOW,64,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+120,Sales,0.955,HIGH,92,HR Executive,"Communication, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+121,Research & Development,0.99,HIGH,85,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+122,IT,0.3,LOW,80,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+123,Research & Development,0.235,LOW,86,MLOps Engineer,"AWS, CI/CD, Cloud, MLOps",5,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+124,Research & Development,0.91,MEDIUM,64,HR Executive,HR Compliance,1,"Learn HR Compliance -- ""HR Compliance Essentials"""
+125,Sales,0.925,MEDIUM,63,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+126,Research & Development,0.9,MEDIUM,73,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+127,IT,0.905,MEDIUM,61,ML Engineer,Machine Learning,1,"Learn Machine Learning -- ""Machine Learning Foundations"""
+128,IT,0.935,MEDIUM,60,Software Engineer,"AWS, Java, System Design",4,"Learn System Design -- ""System Design for Scalable Applications"""
+129,IT,0.595,LOW,54,HR Executive,HR Compliance,1,"Learn HR Compliance -- ""HR Compliance Essentials"""
+130,Research & Development,0.89,MEDIUM,74,Sales Executive,"CRM Tools, Salesforce",3,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+131,IT,0.27,LOW,40,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+132,IT,0.415,LOW,49,ML Engineer,"Docker, MLOps, Machine Learning, Python, Statistics",7,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+133,Research & Development,0.915,MEDIUM,73,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+134,IT,0.23,LOW,75,Sales Executive,"Negotiation, Salesforce",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+135,Research & Development,0.95,HIGH,75,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+136,Sales,0.39,LOW,68,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+137,IT,0.965,HIGH,58,ML Engineer,"AWS, Machine Learning",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+138,Human Resources,0.9,MEDIUM,65,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+139,IT,0.285,LOW,65,Software Engineer,"Docker, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+140,Sales,0.97,HIGH,89,Data Analyst,"Data Visualization, Excel, Tableau",4,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+141,Research & Development,0.955,HIGH,98,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+142,IT,0.16,LOW,63,Software Engineer,System Design,2,"Learn System Design -- ""System Design for Scalable Applications"""
+143,Sales,0.91,MEDIUM,54,Sales Executive,"CRM Tools, Negotiation, Salesforce",5,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+144,IT,0.885,MEDIUM,77,Research Scientist,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+145,Sales,0.875,LOW,50,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+146,IT,0.905,MEDIUM,65,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+147,IT,0.905,MEDIUM,61,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+148,IT,0.265,LOW,48,HR Executive,Workday,2,"Learn Workday -- ""Workday HCM Fundamentals"""
+149,IT,0.925,MEDIUM,68,Sales Executive,Negotiation,2,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+150,Sales,0.895,MEDIUM,67,Sales Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+151,Research & Development,0.895,MEDIUM,81,Software Engineer,System Design,2,"Learn System Design -- ""System Design for Scalable Applications"""
+152,IT,0.175,LOW,70,Data Analyst,"Data Visualization, Excel, Statistics, Tableau",6,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+153,IT,0.27,LOW,100,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+154,Human Resources,0.545,LOW,64,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+155,IT,0.27,LOW,72,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+156,IT,0.245,LOW,69,MLOps Engineer,"Cloud, MLOps",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+157,Sales,0.31,LOW,54,MLOps Engineer,"CI/CD, MLOps, Terraform",4,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+158,IT,0.885,MEDIUM,84,ML Engineer,PyTorch,1,"Learn PyTorch -- ""Deep Learning with PyTorch"""
+159,IT,0.865,LOW,57,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+160,Research & Development,0.88,LOW,51,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+161,Sales,0.675,LOW,48,Research Scientist,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+162,Research & Development,0.97,HIGH,59,Data Analyst,"Data Visualization, Excel, Statistics",5,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+163,Research & Development,0.245,LOW,57,MLOps Engineer,"Cloud, Docker",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+164,Research & Development,0.94,MEDIUM,70,Research Scientist,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+165,Research & Development,0.145,LOW,100,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+166,Human Resources,0.19,LOW,80,HR Executive,"Communication, Conflict Resolution, Excel, HR Compliance, Workday",6,"Learn Workday -- ""Workday HCM Fundamentals"""
+167,Research & Development,0.915,MEDIUM,45,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+168,Research & Development,0.975,HIGH,63,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+169,Research & Development,0.835,LOW,50,ML Engineer,"AWS, Docker, PyTorch",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+170,IT,0.485,LOW,66,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+171,Sales,0.945,HIGH,69,HR Executive,"Conflict Resolution, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+172,Sales,0.915,MEDIUM,66,MLOps Engineer,"AWS, CI/CD, Cloud",3,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+173,Sales,0.99,HIGH,73,HR Executive,"Communication, Conflict Resolution, HR Compliance, Workday",5,"Learn Workday -- ""Workday HCM Fundamentals"""
+174,IT,0.16,LOW,71,Research Scientist,"Python, Research Methods",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+175,IT,0.89,MEDIUM,91,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+176,Human Resources,0.89,MEDIUM,61,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+177,Research & Development,0.81,LOW,68,MLOps Engineer,"CI/CD, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+178,IT,0.77,LOW,61,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+179,Sales,0.92,MEDIUM,72,MLOps Engineer,"Cloud, Docker, Kubernetes, MLOps",7,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+180,Sales,0.195,LOW,81,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+181,IT,0.855,LOW,81,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+182,Research & Development,0.87,LOW,84,Sales Executive,"Communication, Salesforce",3,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+183,Sales,0.96,HIGH,66,ML Engineer,"AWS, Machine Learning, PyTorch",3,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+184,Human Resources,0.975,HIGH,79,Software Engineer,"Docker, Kubernetes, Python",5,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+185,Human Resources,0.6,LOW,67,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+186,Research & Development,0.885,MEDIUM,66,Sales Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+187,Sales,0.915,MEDIUM,91,Sales Executive,Salesforce,2,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+188,Research & Development,0.825,LOW,51,MLOps Engineer,"AWS, Terraform",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+189,Research & Development,0.95,HIGH,86,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+190,Research & Development,0.86,LOW,52,Software Engineer,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+191,Research & Development,0.98,HIGH,91,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+192,Research & Development,0.895,MEDIUM,77,MLOps Engineer,"Cloud, Kubernetes, Terraform",4,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+193,Sales,0.92,MEDIUM,46,ML Engineer,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+194,Sales,0.85,LOW,63,Software Engineer,System Design,2,"Learn System Design -- ""System Design for Scalable Applications"""
+195,Research & Development,0.935,MEDIUM,53,Sales Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+196,IT,0.9,MEDIUM,81,HR Executive,"Communication, HR Compliance",2,"Learn Communication -- ""Effective Workplace Communication"""
+197,Research & Development,0.91,MEDIUM,51,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+198,Research & Development,0.9,MEDIUM,65,Software Engineer,Docker,1,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+199,Sales,0.975,HIGH,80,Sales Executive,"CRM Tools, Negotiation",3,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+200,Sales,0.935,MEDIUM,54,ML Engineer,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+201,Research & Development,0.915,MEDIUM,77,MLOps Engineer,"Cloud, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+202,Research & Development,0.86,LOW,59,Sales Executive,"Excel, Negotiation",3,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+203,Human Resources,0.78,LOW,58,HR Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+204,Research & Development,0.335,LOW,46,Sales Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+205,Human Resources,0.92,MEDIUM,67,Sales Executive,Negotiation,2,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+206,Research & Development,0.935,MEDIUM,63,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+207,Sales,0.825,LOW,72,Research Scientist,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+208,IT,0.945,HIGH,77,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+209,Sales,0.94,MEDIUM,71,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+210,Human Resources,0.97,HIGH,60,ML Engineer,"AWS, Docker, MLOps, Machine Learning, Statistics",7,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+211,Research & Development,0.955,HIGH,47,Sales Executive,CRM Tools,1,"Learn CRM Tools -- ""CRM Best Practices"""
+212,Research & Development,0.86,LOW,89,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+213,Sales,0.92,MEDIUM,66,MLOps Engineer,"Docker, Kubernetes, MLOps",6,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+214,IT,0.97,HIGH,95,MLOps Engineer,Kubernetes,2,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+215,Sales,0.78,LOW,63,HR Executive,"Communication, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+216,Research & Development,0.5,LOW,78,Software Engineer,"Docker, Java, System Design",4,"Learn System Design -- ""System Design for Scalable Applications"""
+217,Sales,0.915,MEDIUM,86,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+218,Human Resources,0.9,MEDIUM,87,Software Engineer,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+219,Sales,0.835,LOW,100,HR Executive,"Communication, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+220,Sales,0.895,MEDIUM,78,MLOps Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+221,IT,0.19,LOW,74,MLOps Engineer,Terraform,1,"Learn Terraform -- ""Infrastructure as Code with Terraform"""
+222,Research & Development,0.95,HIGH,96,Software Engineer,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+223,Human Resources,0.93,MEDIUM,99,Software Engineer,"Java, Kubernetes, Python",5,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+224,IT,0.865,LOW,100,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+225,IT,0.835,LOW,92,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+226,Sales,0.75,LOW,59,MLOps Engineer,"AWS, MLOps, Terraform",4,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+227,Research & Development,0.84,LOW,66,Software Engineer,System Design,2,"Learn System Design -- ""System Design for Scalable Applications"""
+228,IT,0.195,LOW,84,ML Engineer,"AWS, MLOps",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+229,Sales,0.33,LOW,68,Sales Executive,"CRM Tools, Excel",2,"Learn CRM Tools -- ""CRM Best Practices"""
+230,IT,0.72,LOW,84,ML Engineer,Machine Learning,1,"Learn Machine Learning -- ""Machine Learning Foundations"""
+231,Research & Development,0.955,HIGH,70,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+232,Research & Development,0.98,HIGH,78,Software Engineer,Docker,1,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+233,Human Resources,0.905,MEDIUM,56,Research Scientist,"AWS, Research Methods",3,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+234,IT,0.92,MEDIUM,85,ML Engineer,PyTorch,1,"Learn PyTorch -- ""Deep Learning with PyTorch"""
+235,Research & Development,0.96,HIGH,83,HR Executive,"Communication, HR Compliance",2,"Learn Communication -- ""Effective Workplace Communication"""
+236,Research & Development,0.795,LOW,59,Sales Executive,"CRM Tools, Excel, Negotiation, Salesforce",6,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+237,Sales,0.17,LOW,82,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+238,IT,0.98,HIGH,44,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+239,Sales,0.89,MEDIUM,61,Data Analyst,"SQL, Statistics, Tableau",4,"Learn Statistics -- ""Applied Statistics for Business"""
+240,IT,0.815,LOW,50,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+241,Research & Development,0.84,LOW,67,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+242,Research & Development,0.665,LOW,50,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+243,Research & Development,0.485,LOW,85,Software Engineer,"Docker, Java, System Design",4,"Learn System Design -- ""System Design for Scalable Applications"""
+244,Research & Development,0.98,HIGH,76,MLOps Engineer,"CI/CD, Docker",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+245,Sales,0.205,LOW,78,Software Engineer,Docker,1,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+246,IT,0.135,LOW,84,Data Analyst,Tableau,1,"Learn Tableau -- ""Data Visualization with Tableau"""
+247,Sales,0.955,HIGH,72,Software Engineer,Docker,1,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+248,IT,0.875,LOW,72,HR Executive,"Communication, Excel, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+249,Sales,0.91,MEDIUM,64,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+250,IT,0.23,LOW,72,HR Executive,HR Compliance,1,"Learn HR Compliance -- ""HR Compliance Essentials"""
+251,Sales,0.35,LOW,75,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+252,Sales,0.935,MEDIUM,64,Sales Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+253,Sales,0.225,LOW,58,Software Engineer,"AWS, Python, System Design",5,"Learn Python -- ""Python for Data & ML Practitioners"""
+254,Research & Development,0.155,LOW,72,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+255,Research & Development,0.9,MEDIUM,63,Sales Executive,"Communication, Excel, Salesforce",4,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+256,Human Resources,0.925,MEDIUM,58,Data Analyst,"Data Visualization, Excel",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+257,IT,0.825,LOW,100,HR Executive,"Communication, HR Compliance",2,"Learn Communication -- ""Effective Workplace Communication"""
+258,Sales,0.865,LOW,82,Software Engineer,Docker,1,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+259,Research & Development,0.93,MEDIUM,83,Research Scientist,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+260,Research & Development,0.855,LOW,94,Sales Executive,"Communication, Excel",2,"Learn Communication -- ""Effective Workplace Communication"""
+261,Sales,0.985,HIGH,84,Data Analyst,"Data Visualization, Statistics, Tableau",4,"Learn Statistics -- ""Applied Statistics for Business"""
+262,Research & Development,0.88,LOW,79,Research Scientist,"Python, Research Methods",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+263,IT,0.215,LOW,72,MLOps Engineer,"MLOps, Terraform",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+264,Research & Development,0.805,LOW,73,Sales Executive,"CRM Tools, Excel, Negotiation",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+265,Sales,0.96,HIGH,72,Data Analyst,"Excel, SQL",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+266,Human Resources,0.845,LOW,73,MLOps Engineer,CI/CD,1,"Learn CI/CD -- ""CI/CD Pipelines for Engineers"""
+267,Research & Development,0.95,HIGH,75,Sales Executive,"Communication, Excel, Negotiation",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+268,IT,0.985,HIGH,79,HR Executive,"Conflict Resolution, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+269,Sales,0.56,LOW,49,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+270,Research & Development,0.935,MEDIUM,68,Research Scientist,"AWS, Research Methods",3,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+271,IT,0.91,MEDIUM,62,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+272,IT,0.145,LOW,76,MLOps Engineer,"CI/CD, Terraform",2,"Learn CI/CD -- ""CI/CD Pipelines for Engineers"""
+273,Human Resources,0.89,MEDIUM,79,ML Engineer,"Docker, MLOps, Machine Learning, Statistics",6,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+274,IT,0.145,LOW,75,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+275,Research & Development,0.855,LOW,73,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+276,IT,0.945,HIGH,60,MLOps Engineer,"Kubernetes, Terraform",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+277,IT,0.85,LOW,56,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+278,Research & Development,0.91,MEDIUM,53,MLOps Engineer,"AWS, Docker",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+279,Research & Development,0.3,LOW,55,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+280,Human Resources,0.965,HIGH,61,HR Executive,HR Compliance,1,"Learn HR Compliance -- ""HR Compliance Essentials"""
+281,Research & Development,0.965,HIGH,54,Data Analyst,Tableau,1,"Learn Tableau -- ""Data Visualization with Tableau"""
+282,IT,0.915,MEDIUM,81,ML Engineer,PyTorch,1,"Learn PyTorch -- ""Deep Learning with PyTorch"""
+283,Human Resources,0.845,LOW,71,Data Analyst,Excel,2,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+284,Research & Development,0.985,HIGH,89,MLOps Engineer,"CI/CD, Cloud, MLOps, Terraform",5,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+285,IT,0.845,LOW,59,Data Analyst,"Excel, SQL, Statistics",5,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+286,Human Resources,0.97,HIGH,53,HR Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+287,Sales,0.77,LOW,63,Software Engineer,"Java, System Design",3,"Learn System Design -- ""System Design for Scalable Applications"""
+288,Sales,0.175,LOW,46,Research Scientist,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+289,Research & Development,0.885,MEDIUM,68,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+290,Sales,0.77,LOW,71,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+291,IT,0.935,MEDIUM,69,MLOps Engineer,"AWS, Docker, Kubernetes",5,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+292,Research & Development,0.95,HIGH,58,Software Engineer,Docker,1,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+293,IT,0.28,LOW,51,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+294,Research & Development,0.94,MEDIUM,83,Research Scientist,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+295,Research & Development,0.715,LOW,85,MLOps Engineer,"CI/CD, MLOps",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+296,Sales,0.945,HIGH,75,Software Engineer,"Docker, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+297,Sales,0.98,HIGH,94,HR Executive,"Conflict Resolution, Excel, HR Compliance",3,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+298,Research & Development,0.9,MEDIUM,65,Data Analyst,"Data Visualization, Excel, Tableau",4,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+299,Research & Development,0.84,LOW,55,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+300,IT,0.78,LOW,53,HR Executive,"Conflict Resolution, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+301,Human Resources,0.255,LOW,50,Sales Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+302,Human Resources,0.835,LOW,62,HR Executive,"Excel, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+303,Research & Development,0.275,LOW,62,HR Executive,"Communication, Conflict Resolution",2,"Learn Communication -- ""Effective Workplace Communication"""
+304,IT,0.575,LOW,71,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+305,Research & Development,0.885,MEDIUM,95,ML Engineer,"AWS, MLOps, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+306,Sales,0.25,LOW,54,ML Engineer,"Docker, MLOps, Machine Learning",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+307,Research & Development,0.7,LOW,87,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+308,Sales,0.935,MEDIUM,78,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+309,Sales,0.35,LOW,61,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+310,Sales,0.95,HIGH,79,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+311,Human Resources,0.24,LOW,77,MLOps Engineer,"Kubernetes, MLOps, Terraform",5,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+312,Sales,0.8,LOW,48,MLOps Engineer,"Docker, MLOps",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+313,IT,0.945,HIGH,54,Data Analyst,"Excel, SQL",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+314,IT,0.925,MEDIUM,66,Sales Executive,Salesforce,2,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+315,IT,0.105,LOW,87,ML Engineer,"MLOps, Machine Learning, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+316,IT,0.92,MEDIUM,88,Research Scientist,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+317,Research & Development,0.87,LOW,46,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+318,Research & Development,0.34,LOW,93,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+319,IT,0.105,LOW,85,Software Engineer,"Kubernetes, Python",4,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+320,Sales,0.96,HIGH,67,Sales Executive,"CRM Tools, Negotiation",3,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+321,Sales,0.9,MEDIUM,57,HR Executive,"Conflict Resolution, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+322,Research & Development,0.9,MEDIUM,66,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+323,Research & Development,0.865,LOW,71,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+324,Research & Development,0.875,LOW,61,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+325,IT,0.92,MEDIUM,69,Software Engineer,"Docker, Java, Python",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+326,Research & Development,0.245,LOW,42,Data Analyst,"Data Visualization, Excel",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+327,Research & Development,0.985,HIGH,72,ML Engineer,"AWS, MLOps, Machine Learning",3,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+328,Research & Development,0.265,LOW,57,Data Analyst,"Excel, Tableau",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+329,Research & Development,0.285,LOW,70,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+330,Research & Development,0.925,MEDIUM,69,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+331,Sales,0.875,LOW,67,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+332,Sales,0.875,LOW,31,Research Scientist,"AWS, Research Methods, Statistics",5,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+333,Sales,0.865,LOW,91,Software Engineer,Java,1,"Learn Java -- ""Java for Backend Engineers"""
+334,Research & Development,0.945,HIGH,90,Sales Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+335,Human Resources,0.97,HIGH,63,ML Engineer,"Docker, MLOps",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+336,Research & Development,0.175,LOW,70,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+337,IT,0.08,LOW,64,MLOps Engineer,"AWS, Cloud, Docker",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+338,Research & Development,0.25,LOW,90,Software Engineer,"Python, System Design",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+339,Research & Development,0.965,HIGH,54,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+340,Research & Development,0.515,LOW,51,HR Executive,"Communication, HR Compliance",2,"Learn Communication -- ""Effective Workplace Communication"""
+341,Research & Development,0.955,HIGH,67,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+342,IT,0.97,HIGH,42,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+343,IT,0.71,LOW,64,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+344,Sales,0.725,LOW,90,HR Executive,"Communication, Excel, HR Compliance",3,"Learn Communication -- ""Effective Workplace Communication"""
+345,IT,0.98,HIGH,38,Software Engineer,"AWS, Docker",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+346,IT,0.795,LOW,54,Data Analyst,"SQL, Statistics, Tableau",4,"Learn Statistics -- ""Applied Statistics for Business"""
+347,IT,0.235,LOW,64,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+348,Research & Development,0.97,HIGH,61,ML Engineer,"Docker, Statistics",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+349,Human Resources,0.84,LOW,63,Software Engineer,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+350,Human Resources,0.97,HIGH,71,Sales Executive,"CRM Tools, Communication, Negotiation",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+351,IT,0.95,HIGH,76,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+352,Research & Development,0.185,LOW,80,Research Scientist,"Python, Research Methods",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+353,Sales,0.895,MEDIUM,49,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+354,Research & Development,0.93,MEDIUM,59,ML Engineer,"Docker, MLOps",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+355,IT,0.975,HIGH,41,ML Engineer,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+356,Human Resources,0.94,MEDIUM,68,HR Executive,"Excel, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+357,IT,0.965,HIGH,71,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+358,Sales,0.935,MEDIUM,67,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+359,IT,0.815,LOW,73,HR Executive,"Communication, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+360,IT,0.965,HIGH,51,MLOps Engineer,"Kubernetes, MLOps, Terraform",5,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+361,Sales,0.65,LOW,58,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+362,Sales,0.965,HIGH,70,ML Engineer,"Docker, Machine Learning, Statistics",5,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+363,Sales,0.89,MEDIUM,83,Software Engineer,Kubernetes,2,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+364,Sales,0.965,HIGH,72,Sales Executive,Negotiation,2,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+365,Sales,0.93,MEDIUM,47,Software Engineer,Java,1,"Learn Java -- ""Java for Backend Engineers"""
+366,Human Resources,0.965,HIGH,65,ML Engineer,Python,1,"Learn Python -- ""Python for Data & ML Practitioners"""
+367,Research & Development,0.83,LOW,61,Data Analyst,Data Visualization,1,"Learn Data Visualization -- ""Storytelling with Data Visualization"""
+368,IT,0.21,LOW,82,ML Engineer,"Machine Learning, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+369,IT,0.905,MEDIUM,62,ML Engineer,"AWS, Docker, MLOps, Machine Learning, PyTorch, Statistics",8,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+370,Research & Development,0.965,HIGH,50,ML Engineer,"Docker, Machine Learning, Python",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+371,Research & Development,0.945,HIGH,58,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+372,Sales,0.99,HIGH,73,ML Engineer,"AWS, Docker, PyTorch",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+373,Sales,0.2,LOW,78,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+374,Human Resources,0.92,MEDIUM,48,Sales Executive,"Negotiation, Salesforce",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+375,Research & Development,0.28,LOW,65,Sales Executive,"Negotiation, Salesforce",4,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+376,IT,0.075,LOW,59,Software Engineer,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+377,Research & Development,0.945,HIGH,91,MLOps Engineer,"AWS, Docker, Kubernetes, MLOps",7,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+378,Sales,0.975,HIGH,37,ML Engineer,Python,1,"Learn Python -- ""Python for Data & ML Practitioners"""
+379,IT,0.11,LOW,71,Research Scientist,"Python, Research Methods, Statistics",6,"Learn Python -- ""Python for Data & ML Practitioners"""
+380,Sales,0.285,LOW,57,HR Executive,"Conflict Resolution, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+381,Research & Development,0.96,HIGH,77,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+382,Human Resources,0.815,LOW,86,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+383,Research & Development,0.935,MEDIUM,88,Software Engineer,"AWS, Docker, Kubernetes, Python",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+384,IT,0.945,HIGH,34,HR Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+385,Research & Development,0.745,LOW,81,HR Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+386,Sales,0.945,HIGH,75,HR Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+387,IT,0.945,HIGH,61,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+388,IT,0.39,LOW,75,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+389,Sales,0.985,HIGH,85,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+390,Sales,0.95,HIGH,46,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+391,IT,0.96,HIGH,63,Research Scientist,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+392,Sales,0.125,LOW,81,Software Engineer,"Java, Kubernetes, System Design",5,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+393,Sales,0.93,MEDIUM,75,MLOps Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+394,IT,0.89,MEDIUM,88,Sales Executive,"Communication, Excel",2,"Learn Communication -- ""Effective Workplace Communication"""
+395,IT,0.215,LOW,54,Research Scientist,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+396,IT,0.765,LOW,61,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+397,Human Resources,0.86,LOW,68,Data Analyst,"Excel, Tableau",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+398,IT,0.95,HIGH,64,Software Engineer,"AWS, Java, Kubernetes, Python, System Design",8,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+399,Human Resources,0.99,HIGH,76,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+400,IT,0.725,LOW,67,HR Executive,Workday,2,"Learn Workday -- ""Workday HCM Fundamentals"""
+401,Sales,0.76,LOW,66,Research Scientist,"Python, Statistics",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+402,Human Resources,0.965,HIGH,53,Software Engineer,"AWS, Docker, Kubernetes, Python",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+403,Research & Development,0.75,LOW,65,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+404,Sales,0.9,MEDIUM,43,ML Engineer,"Docker, Python",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+405,Research & Development,0.875,LOW,37,ML Engineer,"AWS, PyTorch",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+406,Sales,0.48,LOW,60,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+407,IT,0.095,LOW,59,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+408,Research & Development,0.99,HIGH,58,Software Engineer,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+409,Research & Development,0.905,MEDIUM,84,Software Engineer,"AWS, Docker, Kubernetes, Python",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+410,IT,0.855,LOW,72,Data Analyst,"Excel, SQL, Statistics",5,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+411,IT,0.96,HIGH,68,Software Engineer,Kubernetes,2,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+412,Research & Development,0.585,LOW,76,Sales Executive,Salesforce,2,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+413,Research & Development,0.925,MEDIUM,30,Sales Executive,Negotiation,2,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+414,IT,0.905,MEDIUM,77,HR Executive,"Communication, Excel",2,"Learn Communication -- ""Effective Workplace Communication"""
+415,IT,0.865,LOW,92,ML Engineer,Machine Learning,1,"Learn Machine Learning -- ""Machine Learning Foundations"""
+416,Sales,0.095,LOW,78,ML Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+417,Human Resources,0.78,LOW,65,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+418,Research & Development,0.905,MEDIUM,93,HR Executive,"Communication, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+419,Human Resources,0.965,HIGH,76,HR Executive,"Communication, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+420,Human Resources,0.82,LOW,50,Data Analyst,"Data Visualization, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+421,Sales,0.89,MEDIUM,55,Sales Executive,"CRM Tools, Negotiation, Salesforce",5,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+422,Sales,0.315,LOW,61,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+423,IT,0.845,LOW,93,Research Scientist,"AWS, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+424,Research & Development,0.95,HIGH,81,Research Scientist,"Python, Statistics",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+425,Sales,0.925,MEDIUM,74,HR Executive,"Excel, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+426,Research & Development,0.91,MEDIUM,80,HR Executive,Workday,2,"Learn Workday -- ""Workday HCM Fundamentals"""
+427,Research & Development,0.8,LOW,72,ML Engineer,"Docker, Machine Learning",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+428,Human Resources,0.895,MEDIUM,62,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+429,Human Resources,0.945,HIGH,76,MLOps Engineer,"Cloud, MLOps, Terraform",4,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+430,IT,0.95,HIGH,64,HR Executive,"Conflict Resolution, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+431,Sales,0.3,LOW,48,Data Analyst,Excel,2,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+432,Research & Development,0.94,MEDIUM,88,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+433,Research & Development,0.835,LOW,31,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+434,Sales,0.87,LOW,76,HR Executive,Communication,1,"Learn Communication -- ""Effective Workplace Communication"""
+435,Sales,0.995,HIGH,67,Software Engineer,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+436,Sales,0.15,LOW,90,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+437,Research & Development,0.825,LOW,86,HR Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+438,IT,0.155,LOW,43,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+439,Research & Development,0.825,LOW,63,ML Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+440,Research & Development,0.935,MEDIUM,52,Software Engineer,"Kubernetes, Python",4,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+441,IT,0.95,HIGH,55,MLOps Engineer,"CI/CD, Cloud, Docker",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+442,Research & Development,0.89,MEDIUM,63,Software Engineer,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+443,IT,0.865,LOW,50,MLOps Engineer,"CI/CD, Terraform",2,"Learn CI/CD -- ""CI/CD Pipelines for Engineers"""
+444,IT,0.89,MEDIUM,64,Data Analyst,Excel,2,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+445,IT,0.775,LOW,73,Sales Executive,"Communication, Excel",2,"Learn Communication -- ""Effective Workplace Communication"""
+446,Sales,0.92,MEDIUM,69,ML Engineer,Python,1,"Learn Python -- ""Python for Data & ML Practitioners"""
+447,IT,0.89,MEDIUM,81,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+448,Human Resources,0.95,HIGH,97,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+449,IT,0.88,LOW,68,MLOps Engineer,"AWS, MLOps",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+450,IT,0.99,HIGH,62,Data Analyst,"Data Visualization, Excel, Tableau",4,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+451,Research & Development,0.75,LOW,59,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+452,IT,0.94,MEDIUM,66,Data Analyst,"Excel, SQL, Statistics, Tableau",6,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+453,Sales,0.89,MEDIUM,81,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+454,Sales,0.435,LOW,74,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+455,Research & Development,0.965,HIGH,70,ML Engineer,"Docker, PyTorch",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+456,IT,0.15,LOW,67,Sales Executive,"Communication, Excel",2,"Learn Communication -- ""Effective Workplace Communication"""
+457,Research & Development,0.91,MEDIUM,85,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+458,Sales,0.86,LOW,62,HR Executive,"Communication, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+459,Sales,0.22,LOW,69,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+460,Human Resources,0.985,HIGH,63,ML Engineer,"Machine Learning, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+461,Sales,0.84,LOW,64,MLOps Engineer,"AWS, CI/CD",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+462,IT,0.22,LOW,57,Research Scientist,"AWS, Python, Statistics",5,"Learn Python -- ""Python for Data & ML Practitioners"""
+463,IT,0.735,LOW,88,Data Analyst,"Data Visualization, Statistics, Tableau",4,"Learn Statistics -- ""Applied Statistics for Business"""
+464,IT,0.92,MEDIUM,67,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+465,Human Resources,0.825,LOW,24,MLOps Engineer,Cloud,1,"Learn Cloud -- ""Cloud Computing Foundations"""
+466,Sales,0.25,LOW,69,Software Engineer,"Docker, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+467,Research & Development,0.185,LOW,61,Research Scientist,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+468,Sales,0.91,MEDIUM,70,MLOps Engineer,"Cloud, Kubernetes, Terraform",4,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+469,Human Resources,0.96,HIGH,58,Software Engineer,"AWS, Docker, Kubernetes, System Design",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+470,Sales,0.86,LOW,56,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+471,Sales,0.22,LOW,86,Research Scientist,"AWS, Research Methods",3,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+472,Research & Development,0.96,HIGH,83,Data Analyst,"Excel, Statistics, Tableau",5,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+473,IT,0.89,MEDIUM,73,HR Executive,"Conflict Resolution, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+474,Research & Development,0.93,MEDIUM,60,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+475,Sales,0.915,MEDIUM,50,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+476,Sales,0.75,LOW,63,Sales Executive,"Excel, Negotiation",3,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+477,Sales,0.92,MEDIUM,65,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+478,Sales,0.235,LOW,42,HR Executive,"Communication, Conflict Resolution, HR Compliance, Workday",5,"Learn Workday -- ""Workday HCM Fundamentals"""
+479,IT,0.195,LOW,47,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+480,Research & Development,0.915,MEDIUM,73,HR Executive,"Conflict Resolution, Excel, HR Compliance",3,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+481,IT,0.9,MEDIUM,73,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+482,Human Resources,0.935,MEDIUM,81,ML Engineer,"Machine Learning, Python, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+483,IT,0.14,LOW,84,Data Analyst,Data Visualization,1,"Learn Data Visualization -- ""Storytelling with Data Visualization"""
+484,Research & Development,0.955,HIGH,62,Research Scientist,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+485,Sales,0.815,LOW,62,Software Engineer,System Design,2,"Learn System Design -- ""System Design for Scalable Applications"""
+486,IT,0.11,LOW,65,ML Engineer,"AWS, Docker, Machine Learning, PyTorch, Python",6,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+487,Sales,0.51,LOW,63,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+488,Sales,0.34,LOW,61,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+489,Sales,0.41,LOW,61,Sales Executive,"Communication, Negotiation, Salesforce",5,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+490,Research & Development,0.985,HIGH,59,Data Analyst,"Excel, Tableau",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+491,Research & Development,0.345,LOW,52,ML Engineer,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+492,Research & Development,0.335,LOW,68,Sales Executive,Salesforce,2,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+493,IT,0.93,MEDIUM,50,HR Executive,"Excel, HR Compliance, Workday",4,"Learn Workday -- ""Workday HCM Fundamentals"""
+494,Sales,0.66,LOW,39,ML Engineer,Machine Learning,1,"Learn Machine Learning -- ""Machine Learning Foundations"""
+495,Research & Development,0.905,MEDIUM,94,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+496,Sales,0.925,MEDIUM,79,Software Engineer,"AWS, Docker, Java, Python",5,"Learn Python -- ""Python for Data & ML Practitioners"""
+497,Sales,0.295,LOW,65,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+498,Sales,0.8,LOW,55,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+499,Human Resources,0.92,MEDIUM,55,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+500,Sales,0.78,LOW,69,HR Executive,"Excel, Workday",3,"Learn Workday -- ""Workday HCM Fundamentals"""
+501,IT,0.27,LOW,61,MLOps Engineer,"AWS, Kubernetes",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+502,Sales,0.975,HIGH,76,Data Analyst,"Data Visualization, Tableau",2,"Learn Data Visualization -- ""Storytelling with Data Visualization"""
+503,Research & Development,0.92,MEDIUM,100,ML Engineer,Python,1,"Learn Python -- ""Python for Data & ML Practitioners"""
+504,Human Resources,0.965,HIGH,50,ML Engineer,"MLOps, Machine Learning, PyTorch",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+505,Sales,0.875,LOW,59,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+506,IT,0.635,LOW,72,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+507,IT,0.5,LOW,69,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+508,IT,0.915,MEDIUM,77,HR Executive,Workday,2,"Learn Workday -- ""Workday HCM Fundamentals"""
+509,IT,0.93,MEDIUM,61,Sales Executive,CRM Tools,1,"Learn CRM Tools -- ""CRM Best Practices"""
+510,Human Resources,0.935,MEDIUM,55,ML Engineer,Docker,2,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+511,Sales,0.935,MEDIUM,77,ML Engineer,"Machine Learning, PyTorch",2,"Learn Machine Learning -- ""Machine Learning Foundations"""
+512,Human Resources,0.895,MEDIUM,78,Software Engineer,"AWS, Docker, Python",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+513,Human Resources,0.83,LOW,73,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+514,IT,0.745,LOW,61,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+515,Human Resources,0.46,LOW,85,ML Engineer,Machine Learning,1,"Learn Machine Learning -- ""Machine Learning Foundations"""
+516,Research & Development,0.165,LOW,100,Sales Executive,"CRM Tools, Communication, Excel, Negotiation",5,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+517,IT,0.43,LOW,69,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+518,IT,0.65,LOW,67,Sales Executive,"CRM Tools, Negotiation",3,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+519,Research & Development,0.835,LOW,66,ML Engineer,"Docker, Python",3,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+520,Sales,0.24,LOW,66,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+521,IT,0.18,LOW,64,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+522,IT,0.355,LOW,46,Data Analyst,"Excel, SQL",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+523,Human Resources,0.945,HIGH,63,Research Scientist,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+524,Research & Development,0.685,LOW,61,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+525,Research & Development,0.885,MEDIUM,79,MLOps Engineer,"CI/CD, Cloud, Terraform",3,"Learn CI/CD -- ""CI/CD Pipelines for Engineers"""
+526,IT,0.84,LOW,56,MLOps Engineer,CI/CD,1,"Learn CI/CD -- ""CI/CD Pipelines for Engineers"""
+527,Human Resources,0.995,HIGH,84,Software Engineer,"Java, Python, System Design",5,"Learn Python -- ""Python for Data & ML Practitioners"""
+528,Human Resources,0.935,MEDIUM,49,HR Executive,"Communication, Conflict Resolution",2,"Learn Communication -- ""Effective Workplace Communication"""
+529,Sales,0.83,LOW,51,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+530,Research & Development,0.915,MEDIUM,75,Data Analyst,Tableau,1,"Learn Tableau -- ""Data Visualization with Tableau"""
+531,IT,0.69,LOW,55,Sales Executive,"CRM Tools, Excel, Salesforce",4,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+532,IT,0.89,MEDIUM,60,Software Engineer,"AWS, Docker, Kubernetes, Python, System Design",8,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+533,IT,0.21,LOW,79,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+534,Sales,0.98,HIGH,90,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+535,IT,0.255,LOW,84,HR Executive,Excel,1,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+536,Sales,0.755,LOW,54,Software Engineer,"Java, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+537,IT,0.94,MEDIUM,80,Software Engineer,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+538,Research & Development,0.295,LOW,63,MLOps Engineer,"AWS, CI/CD",2,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+539,Sales,0.935,MEDIUM,100,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+540,IT,0.88,LOW,87,Software Engineer,"AWS, Docker, Kubernetes, Python",6,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+541,Research & Development,0.945,HIGH,50,Data Analyst,"Excel, Tableau",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+542,IT,0.3,LOW,66,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+543,Sales,0.685,LOW,34,ML Engineer,"AWS, MLOps, Machine Learning, PyTorch",4,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+544,Sales,0.955,HIGH,83,Research Scientist,"Python, Statistics",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+545,IT,0.965,HIGH,78,HR Executive,"Communication, Conflict Resolution, HR Compliance, Workday",5,"Learn Workday -- ""Workday HCM Fundamentals"""
+546,IT,0.825,LOW,78,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+547,IT,0.225,LOW,88,Data Analyst,SQL,1,"Learn SQL -- ""Practical SQL for Analysts"""
+548,Research & Development,0.965,HIGH,64,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+549,Research & Development,0.855,LOW,72,HR Executive,"Communication, Excel, HR Compliance",3,"Learn Communication -- ""Effective Workplace Communication"""
+550,Sales,0.91,MEDIUM,85,Software Engineer,"Docker, Java, Python, System Design",6,"Learn Python -- ""Python for Data & ML Practitioners"""
+551,IT,0.26,LOW,54,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+552,Human Resources,0.31,LOW,51,HR Executive,HR Compliance,1,"Learn HR Compliance -- ""HR Compliance Essentials"""
+553,Sales,0.955,HIGH,67,MLOps Engineer,"Cloud, MLOps",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+554,Human Resources,0.86,LOW,69,MLOps Engineer,Terraform,1,"Learn Terraform -- ""Infrastructure as Code with Terraform"""
+555,Human Resources,0.86,LOW,67,Sales Executive,"Excel, Salesforce",3,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+556,Sales,0.775,LOW,69,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+557,IT,0.875,LOW,63,Data Analyst,"Data Visualization, Tableau",2,"Learn Data Visualization -- ""Storytelling with Data Visualization"""
+558,Human Resources,0.925,MEDIUM,81,Software Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+559,Research & Development,0.97,HIGH,82,Data Analyst,Excel,2,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+560,Human Resources,0.17,LOW,52,HR Executive,(none),0,No critical skill gaps -- keep up ongoing development
+561,Research & Development,0.475,LOW,60,Data Analyst,"Excel, SQL",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+562,Sales,0.985,HIGH,79,Research Scientist,"Python, Statistics",4,"Learn Python -- ""Python for Data & ML Practitioners"""
+563,Research & Development,0.98,HIGH,62,MLOps Engineer,"AWS, CI/CD, Cloud, Docker, Kubernetes, MLOps, Terraform",10,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+564,IT,0.885,MEDIUM,94,MLOps Engineer,"Docker, Kubernetes, Terraform",5,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+565,Research & Development,0.35,LOW,50,HR Executive,"Communication, Conflict Resolution, HR Compliance, Workday",5,"Learn Workday -- ""Workday HCM Fundamentals"""
+566,IT,0.935,MEDIUM,100,ML Engineer,"Machine Learning, PyTorch, Statistics",4,"Learn Statistics -- ""Applied Statistics for Business"""
+567,IT,0.94,MEDIUM,82,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+568,IT,0.83,LOW,58,Software Engineer,Kubernetes,2,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+569,IT,0.93,MEDIUM,78,Research Scientist,Research Methods,2,"Learn Research Methods -- ""Research Methods & Experimental Design"""
+570,IT,0.94,MEDIUM,31,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+571,Research & Development,0.85,LOW,66,Sales Executive,"CRM Tools, Communication",2,"Learn CRM Tools -- ""CRM Best Practices"""
+572,Human Resources,0.295,LOW,53,Sales Executive,"Communication, Excel, Salesforce",4,"Learn Salesforce -- ""Salesforce Administration Essentials"""
+573,Research & Development,0.925,MEDIUM,59,HR Executive,"Excel, HR Compliance",2,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+574,Human Resources,0.88,LOW,100,Research Scientist,"AWS, Python",3,"Learn Python -- ""Python for Data & ML Practitioners"""
+575,Research & Development,0.105,LOW,86,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+576,IT,0.43,LOW,64,Research Scientist,Python,2,"Learn Python -- ""Python for Data & ML Practitioners"""
+577,IT,0.95,HIGH,0,ML Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+578,Sales,0.945,HIGH,96,Research Scientist,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+579,Research & Development,0.91,MEDIUM,45,Data Analyst,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+580,Sales,0.86,LOW,86,Software Engineer,AWS,1,"Learn AWS -- ""Cloud Infrastructure on AWS"""
+581,Research & Development,0.915,MEDIUM,61,MLOps Engineer,MLOps,2,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+582,Sales,0.225,LOW,81,Data Analyst,"Excel, Statistics, Tableau",5,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+583,Research & Development,0.98,HIGH,77,HR Executive,Conflict Resolution,1,"Learn Conflict Resolution -- ""Conflict Resolution in the Workplace"""
+584,Research & Development,0.23,LOW,67,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+585,IT,0.955,HIGH,78,MLOps Engineer,"Kubernetes, Terraform",3,"Learn Kubernetes -- ""Container Orchestration with Kubernetes"""
+586,Sales,0.975,HIGH,89,Research Scientist,Statistics,2,"Learn Statistics -- ""Applied Statistics for Business"""
+587,Research & Development,0.79,LOW,94,MLOps Engineer,(none),0,No critical skill gaps -- keep up ongoing development
+588,Research & Development,0.84,LOW,64,Sales Executive,"Communication, Excel",2,"Learn Communication -- ""Effective Workplace Communication"""
+589,Sales,0.88,LOW,67,Data Analyst,"Data Visualization, Statistics",3,"Learn Statistics -- ""Applied Statistics for Business"""
+590,Human Resources,0.88,LOW,67,MLOps Engineer,"CI/CD, MLOps",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+591,IT,0.855,LOW,46,Sales Executive,(none),0,No critical skill gaps -- keep up ongoing development
+592,Research & Development,0.855,LOW,91,ML Engineer,"Docker, MLOps, Statistics",5,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+593,IT,0.935,MEDIUM,67,Data Analyst,"Excel, SQL",3,"Learn Excel -- ""Advanced Excel for Business Analytics"""
+594,Research & Development,0.93,MEDIUM,93,MLOps Engineer,"Docker, Kubernetes",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+595,Sales,0.82,LOW,76,ML Engineer,MLOps,1,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""
+596,Research & Development,0.195,LOW,93,Research Scientist,(none),0,No critical skill gaps -- keep up ongoing development
+597,Human Resources,0.96,HIGH,95,Data Analyst,(none),0,No critical skill gaps -- keep up ongoing development
+598,Sales,0.86,LOW,77,MLOps Engineer,"Docker, Kubernetes",4,"Learn Docker -- ""Containerization Fundamentals with Docker"""
+599,Sales,0.955,HIGH,73,Sales Executive,"Communication, Negotiation, Salesforce",5,"Learn Negotiation -- ""Negotiation Skills for Sales Professionals"""
+600,Sales,0.985,HIGH,75,MLOps Engineer,"CI/CD, MLOps",3,"Learn MLOps -- ""Deploying and Monitoring Machine Learning Systems"""

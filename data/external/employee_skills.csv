@@ -1,0 +1,2470 @@
+employee_id,current_skill
+1,Salesforce
+1,CRM Tools
+2,AWS
+2,Python
+2,Research Methods
+2,Statistics
+3,Python
+3,AWS
+3,Kubernetes
+3,Docker
+3,Excel
+4,Java
+4,System Design
+5,Java
+5,Python
+5,System Design
+6,Java
+6,Python
+6,System Design
+6,AWS
+6,Kubernetes
+6,Docker
+7,Excel
+7,Negotiation
+7,Communication
+8,Excel
+8,Salesforce
+8,Negotiation
+8,Communication
+8,CRM Tools
+9,MLOps
+9,Python
+9,Machine Learning
+9,AWS
+9,PyTorch
+9,Statistics
+9,Docker
+9,Communication
+10,Excel
+10,Data Visualization
+10,Tableau
+10,SQL
+10,Statistics
+11,Excel
+11,Workday
+11,Conflict Resolution
+11,HR Compliance
+11,Communication
+12,MLOps
+12,Python
+12,Machine Learning
+12,AWS
+12,Statistics
+13,Excel
+13,Negotiation
+13,Communication
+13,CRM Tools
+14,Java
+14,Python
+14,System Design
+14,AWS
+14,Docker
+15,MLOps
+15,CI/CD
+15,AWS
+15,Kubernetes
+15,Cloud
+16,Excel
+16,Statistics
+17,MLOps
+17,Machine Learning
+17,AWS
+17,PyTorch
+17,Statistics
+17,Docker
+18,Data Visualization
+18,Tableau
+18,SQL
+18,Statistics
+19,Excel
+19,Data Visualization
+19,Tableau
+19,SQL
+19,Statistics
+20,Excel
+20,Salesforce
+20,Negotiation
+20,CRM Tools
+21,Excel
+21,Salesforce
+21,Communication
+22,Java
+22,System Design
+22,AWS
+22,Kubernetes
+22,Docker
+23,Excel
+23,Data Visualization
+23,Statistics
+24,MLOps
+24,AWS
+24,Docker
+25,MLOps
+25,CI/CD
+25,AWS
+25,Kubernetes
+25,Docker
+26,MLOps
+26,Python
+26,Machine Learning
+26,PyTorch
+26,Statistics
+26,Docker
+28,Excel
+28,Negotiation
+28,Communication
+28,CRM Tools
+29,AWS
+29,Research Methods
+29,Statistics
+30,Excel
+30,Salesforce
+30,Negotiation
+30,Communication
+30,CRM Tools
+31,Tableau
+31,SQL
+31,Statistics
+32,Excel
+32,Salesforce
+32,Negotiation
+32,Communication
+32,CRM Tools
+33,Excel
+33,Workday
+33,Conflict Resolution
+33,HR Compliance
+33,Communication
+34,Python
+34,Machine Learning
+34,AWS
+34,Docker
+35,Excel
+35,Workday
+35,Conflict Resolution
+35,HR Compliance
+35,Communication
+36,Salesforce
+36,CRM Tools
+37,Java
+37,Python
+37,Kubernetes
+37,Docker
+38,Python
+38,System Design
+38,AWS
+38,Kubernetes
+38,Docker
+39,Excel
+39,Data Visualization
+39,Tableau
+40,Excel
+40,Workday
+40,Conflict Resolution
+40,HR Compliance
+40,Communication
+41,Excel
+41,Salesforce
+41,Negotiation
+41,Communication
+41,CRM Tools
+42,Excel
+42,Workday
+42,Conflict Resolution
+42,Communication
+43,Excel
+43,Communication
+43,CRM Tools
+44,AWS
+44,Python
+44,Research Methods
+44,Statistics
+45,AWS
+45,Python
+45,Statistics
+46,MLOps
+46,Docker
+47,Excel
+47,Data Visualization
+47,Tableau
+47,Statistics
+48,Excel
+48,Salesforce
+48,Negotiation
+48,Communication
+48,CRM Tools
+49,Excel
+49,Data Visualization
+49,Tableau
+49,SQL
+49,Statistics
+50,Machine Learning
+50,AWS
+50,PyTorch
+50,Docker
+51,Excel
+51,Workday
+51,Conflict Resolution
+51,HR Compliance
+51,Communication
+52,Python
+52,Machine Learning
+52,AWS
+52,Statistics
+52,Excel
+53,Python
+53,Statistics
+53,Docker
+53,Excel
+54,MLOps
+54,Python
+54,Machine Learning
+54,AWS
+54,PyTorch
+54,Statistics
+55,Java
+55,Python
+55,AWS
+55,Kubernetes
+55,Docker
+56,MLOps
+56,Machine Learning
+56,AWS
+56,Docker
+57,MLOps
+57,Python
+57,Machine Learning
+57,PyTorch
+57,Statistics
+57,Docker
+58,Python
+58,Research Methods
+58,Statistics
+59,System Design
+59,Docker
+60,Excel
+60,Workday
+60,Conflict Resolution
+60,HR Compliance
+60,Communication
+61,Excel
+61,Data Visualization
+61,Statistics
+62,Python
+62,AWS
+62,Statistics
+62,Docker
+62,Excel
+63,MLOps
+63,CI/CD
+63,AWS
+63,Kubernetes
+63,Cloud
+63,Docker
+63,Excel
+64,Excel
+64,Data Visualization
+64,Tableau
+64,Statistics
+65,MLOps
+65,PyTorch
+65,Docker
+66,Excel
+66,Salesforce
+66,Negotiation
+66,Communication
+66,CRM Tools
+67,MLOps
+67,Python
+67,Machine Learning
+67,AWS
+67,Statistics
+67,Docker
+68,MLOps
+68,Kubernetes
+68,Cloud
+68,Terraform
+69,Salesforce
+69,Negotiation
+69,Communication
+70,AWS
+70,Communication
+71,AWS
+71,Python
+71,Research Methods
+71,Statistics
+72,Excel
+72,Salesforce
+72,Negotiation
+72,Communication
+72,CRM Tools
+73,Excel
+73,Data Visualization
+73,Tableau
+73,SQL
+73,Statistics
+74,Excel
+74,Data Visualization
+74,Tableau
+75,AWS
+75,Research Methods
+75,Statistics
+76,MLOps
+76,CI/CD
+76,AWS
+76,Terraform
+76,Docker
+77,Excel
+77,Data Visualization
+77,Tableau
+77,SQL
+77,Statistics
+78,Excel
+78,Workday
+78,Conflict Resolution
+78,HR Compliance
+78,Communication
+79,Java
+79,Python
+79,System Design
+79,AWS
+79,Kubernetes
+79,Docker
+79,Excel
+80,AWS
+81,Tableau
+81,SQL
+81,Statistics
+82,Excel
+82,Workday
+82,Conflict Resolution
+83,AWS
+83,Kubernetes
+83,Cloud
+83,Terraform
+84,Excel
+84,Salesforce
+84,Negotiation
+84,CRM Tools
+85,Excel
+85,Data Visualization
+85,Tableau
+85,SQL
+85,Statistics
+87,Excel
+87,Workday
+87,Conflict Resolution
+87,HR Compliance
+88,Tableau
+88,Statistics
+89,Excel
+89,Salesforce
+89,Negotiation
+89,Communication
+89,CRM Tools
+90,AWS
+90,Python
+90,Research Methods
+90,Statistics
+90,Excel
+91,Excel
+91,Workday
+91,Conflict Resolution
+91,HR Compliance
+91,Communication
+92,Excel
+92,Conflict Resolution
+92,HR Compliance
+93,Excel
+94,AWS
+94,Python
+94,Research Methods
+94,Statistics
+95,Data Visualization
+95,Statistics
+95,Communication
+96,Data Visualization
+96,SQL
+97,Excel
+97,Salesforce
+97,Negotiation
+97,Communication
+98,MLOps
+98,Python
+98,Machine Learning
+98,AWS
+98,PyTorch
+98,Statistics
+99,Excel
+99,Data Visualization
+99,Tableau
+99,SQL
+99,Statistics
+100,MLOps
+100,Python
+100,AWS
+100,PyTorch
+101,Python
+101,Statistics
+102,Excel
+102,Data Visualization
+102,SQL
+102,Statistics
+103,Excel
+103,Workday
+103,HR Compliance
+103,Communication
+104,Java
+104,System Design
+104,AWS
+104,Kubernetes
+105,Excel
+105,Salesforce
+105,Negotiation
+105,Communication
+105,CRM Tools
+106,Excel
+106,Workday
+106,Conflict Resolution
+107,Java
+107,System Design
+107,AWS
+107,Docker
+108,MLOps
+108,CI/CD
+108,AWS
+108,Kubernetes
+108,Cloud
+108,Terraform
+109,Excel
+109,Workday
+109,Conflict Resolution
+109,HR Compliance
+109,Communication
+110,Communication
+111,AWS
+111,Python
+111,Statistics
+112,MLOps
+112,Machine Learning
+112,AWS
+112,PyTorch
+112,Statistics
+112,Docker
+113,MLOps
+113,Python
+113,Machine Learning
+113,AWS
+113,PyTorch
+113,Statistics
+113,Docker
+114,Java
+114,Python
+114,System Design
+114,AWS
+114,Docker
+115,Excel
+115,Data Visualization
+115,Tableau
+115,SQL
+116,Excel
+116,Salesforce
+116,Negotiation
+116,Communication
+116,CRM Tools
+117,Workday
+117,Conflict Resolution
+117,HR Compliance
+117,Communication
+118,Python
+118,Machine Learning
+118,AWS
+118,PyTorch
+118,Statistics
+118,Docker
+119,MLOps
+119,Python
+119,Machine Learning
+119,AWS
+119,PyTorch
+119,Statistics
+119,Docker
+120,Excel
+120,Conflict Resolution
+120,HR Compliance
+121,Excel
+121,Workday
+121,Conflict Resolution
+121,HR Compliance
+121,Communication
+122,Excel
+122,Workday
+122,Conflict Resolution
+122,HR Compliance
+122,Communication
+123,Kubernetes
+123,Terraform
+123,Docker
+123,Communication
+124,Excel
+124,Workday
+124,Conflict Resolution
+124,Communication
+125,AWS
+125,Python
+125,Research Methods
+125,Statistics
+126,MLOps
+126,Python
+126,Machine Learning
+126,AWS
+126,PyTorch
+126,Statistics
+126,Docker
+126,Excel
+127,MLOps
+127,Python
+127,AWS
+127,PyTorch
+127,Statistics
+127,Docker
+128,Python
+128,Kubernetes
+128,Docker
+128,Communication
+129,Excel
+129,Workday
+129,Conflict Resolution
+129,Communication
+130,Excel
+130,Negotiation
+130,Communication
+131,Excel
+131,Salesforce
+131,Negotiation
+131,Communication
+131,CRM Tools
+132,AWS
+132,PyTorch
+133,AWS
+133,Python
+133,Research Methods
+133,Statistics
+134,Excel
+134,Communication
+134,CRM Tools
+135,Excel
+135,Data Visualization
+135,Tableau
+135,Statistics
+136,Java
+136,Python
+136,System Design
+136,AWS
+136,Kubernetes
+136,Docker
+137,MLOps
+137,Python
+137,PyTorch
+137,Statistics
+137,Docker
+138,Excel
+138,Data Visualization
+138,Tableau
+138,SQL
+139,Java
+139,Python
+139,System Design
+139,AWS
+140,SQL
+140,Statistics
+141,Excel
+141,Workday
+141,HR Compliance
+141,Communication
+142,Java
+142,Python
+142,AWS
+142,Kubernetes
+142,Docker
+143,Excel
+143,Communication
+144,Python
+144,Research Methods
+145,MLOps
+145,CI/CD
+145,AWS
+145,Kubernetes
+145,Cloud
+145,Terraform
+145,Docker
+146,AWS
+146,Python
+146,Research Methods
+147,MLOps
+147,CI/CD
+147,AWS
+147,Kubernetes
+147,Cloud
+147,Terraform
+147,Docker
+147,Communication
+148,Excel
+148,Conflict Resolution
+148,HR Compliance
+148,Communication
+149,Excel
+149,Salesforce
+149,Communication
+149,CRM Tools
+150,Excel
+150,Salesforce
+150,Negotiation
+150,CRM Tools
+151,Java
+151,Python
+151,AWS
+151,Kubernetes
+151,Docker
+152,SQL
+153,AWS
+153,Python
+153,Statistics
+153,Excel
+154,Excel
+154,Workday
+154,Conflict Resolution
+154,HR Compliance
+154,Communication
+155,Excel
+155,Salesforce
+155,Negotiation
+155,Communication
+155,CRM Tools
+156,CI/CD
+156,AWS
+156,Kubernetes
+156,Terraform
+156,Docker
+157,AWS
+157,Kubernetes
+157,Cloud
+157,Docker
+158,MLOps
+158,Python
+158,Machine Learning
+158,AWS
+158,Statistics
+158,Docker
+159,Java
+159,Python
+159,System Design
+159,AWS
+159,Kubernetes
+159,Docker
+160,Excel
+160,Data Visualization
+160,Tableau
+160,SQL
+160,Statistics
+161,Python
+161,Research Methods
+161,Statistics
+162,Tableau
+162,SQL
+163,MLOps
+163,CI/CD
+163,AWS
+163,Kubernetes
+163,Terraform
+163,Excel
+164,Python
+164,Research Methods
+165,Java
+165,Python
+165,System Design
+165,AWS
+165,Kubernetes
+165,Docker
+167,AWS
+167,Python
+167,Research Methods
+168,Excel
+168,Data Visualization
+168,Tableau
+168,SQL
+169,MLOps
+169,Python
+169,Machine Learning
+169,Statistics
+169,Communication
+170,AWS
+170,Research Methods
+170,Statistics
+171,Excel
+171,HR Compliance
+171,Communication
+172,MLOps
+172,Kubernetes
+172,Terraform
+172,Docker
+173,Excel
+174,AWS
+174,Statistics
+175,AWS
+175,Python
+175,Research Methods
+175,Statistics
+176,Excel
+176,Data Visualization
+176,Tableau
+176,SQL
+176,Statistics
+177,MLOps
+177,AWS
+177,Cloud
+177,Terraform
+177,Docker
+177,Excel
+178,AWS
+178,Python
+178,Research Methods
+178,Statistics
+179,CI/CD
+179,AWS
+179,Terraform
+179,Communication
+180,Java
+180,Python
+180,System Design
+180,AWS
+180,Kubernetes
+180,Docker
+181,Excel
+181,Salesforce
+181,Negotiation
+181,CRM Tools
+181,Communication
+182,Excel
+182,Negotiation
+182,CRM Tools
+183,MLOps
+183,Python
+183,Statistics
+183,Docker
+184,Java
+184,System Design
+184,AWS
+184,Communication
+185,Excel
+185,Data Visualization
+185,Tableau
+185,SQL
+185,Statistics
+186,Salesforce
+186,Negotiation
+186,Communication
+186,CRM Tools
+187,Excel
+187,Negotiation
+187,Communication
+187,CRM Tools
+188,MLOps
+188,CI/CD
+188,Kubernetes
+188,Cloud
+188,Docker
+189,MLOps
+189,Python
+189,Machine Learning
+189,AWS
+189,PyTorch
+189,Statistics
+189,Docker
+190,Java
+190,System Design
+190,AWS
+190,Kubernetes
+190,Docker
+191,AWS
+191,Python
+191,Research Methods
+191,Excel
+192,MLOps
+192,CI/CD
+192,AWS
+192,Docker
+193,MLOps
+193,Python
+193,Machine Learning
+193,PyTorch
+193,Docker
+194,Java
+194,Python
+194,AWS
+194,Kubernetes
+194,Docker
+194,Communication
+195,Excel
+195,Salesforce
+195,Negotiation
+195,CRM Tools
+196,Excel
+196,Workday
+196,Conflict Resolution
+197,Excel
+197,Data Visualization
+197,Tableau
+197,SQL
+198,Java
+198,Python
+198,System Design
+198,AWS
+198,Kubernetes
+199,Excel
+199,Salesforce
+199,Communication
+200,MLOps
+200,Python
+200,Machine Learning
+200,PyTorch
+200,Docker
+200,Excel
+201,MLOps
+201,CI/CD
+201,AWS
+201,Terraform
+201,Docker
+201,Communication
+202,Salesforce
+202,Communication
+202,CRM Tools
+203,Excel
+203,Workday
+203,Conflict Resolution
+203,HR Compliance
+204,Salesforce
+204,Negotiation
+204,CRM Tools
+204,Communication
+205,Excel
+205,Salesforce
+205,Communication
+205,CRM Tools
+206,Excel
+206,Workday
+206,Conflict Resolution
+206,HR Compliance
+206,Communication
+207,Python
+207,Research Methods
+207,Statistics
+208,Excel
+208,Salesforce
+208,Negotiation
+208,Communication
+208,CRM Tools
+209,Excel
+209,Workday
+209,Conflict Resolution
+209,HR Compliance
+209,Communication
+210,Python
+210,PyTorch
+211,Excel
+211,Salesforce
+211,Negotiation
+211,Communication
+212,AWS
+212,Python
+212,Research Methods
+212,Communication
+213,CI/CD
+213,AWS
+213,Cloud
+213,Terraform
+214,MLOps
+214,CI/CD
+214,AWS
+214,Cloud
+214,Terraform
+214,Docker
+215,Excel
+215,Conflict Resolution
+216,Python
+216,AWS
+216,Kubernetes
+217,Java
+217,Python
+217,System Design
+217,AWS
+217,Kubernetes
+217,Docker
+217,Excel
+218,Java
+218,System Design
+218,Kubernetes
+218,Docker
+219,Excel
+219,Conflict Resolution
+219,HR Compliance
+220,MLOps
+220,CI/CD
+220,AWS
+220,Kubernetes
+220,Cloud
+220,Terraform
+221,MLOps
+221,CI/CD
+221,AWS
+221,Kubernetes
+221,Cloud
+221,Docker
+221,Communication
+222,Java
+222,System Design
+222,Kubernetes
+222,Docker
+223,System Design
+223,AWS
+223,Docker
+224,Java
+224,Python
+224,System Design
+224,AWS
+224,Kubernetes
+224,Docker
+225,MLOps
+225,CI/CD
+225,AWS
+225,Kubernetes
+225,Cloud
+225,Terraform
+225,Docker
+225,Communication
+226,CI/CD
+226,Kubernetes
+226,Cloud
+226,Docker
+227,Java
+227,Python
+227,AWS
+227,Kubernetes
+227,Docker
+228,Python
+228,Machine Learning
+228,PyTorch
+228,Statistics
+228,Docker
+229,Salesforce
+229,Negotiation
+229,Communication
+230,MLOps
+230,Python
+230,AWS
+230,PyTorch
+230,Statistics
+230,Docker
+231,MLOps
+231,CI/CD
+231,AWS
+231,Kubernetes
+231,Cloud
+231,Terraform
+231,Docker
+232,Java
+232,Python
+232,System Design
+232,AWS
+232,Kubernetes
+233,Python
+233,Statistics
+234,MLOps
+234,Python
+234,Machine Learning
+234,AWS
+234,Statistics
+234,Docker
+234,Communication
+235,Excel
+235,Workday
+235,Conflict Resolution
+236,Communication
+237,Excel
+237,Workday
+237,Conflict Resolution
+237,HR Compliance
+237,Communication
+238,Excel
+238,Workday
+238,Conflict Resolution
+238,HR Compliance
+238,Communication
+239,Excel
+239,Data Visualization
+240,AWS
+240,Python
+240,Research Methods
+241,Excel
+241,Data Visualization
+241,Tableau
+241,SQL
+241,Statistics
+242,AWS
+242,Research Methods
+242,Statistics
+243,Python
+243,AWS
+243,Kubernetes
+244,MLOps
+244,AWS
+244,Kubernetes
+244,Cloud
+244,Terraform
+245,Java
+245,Python
+245,System Design
+245,AWS
+245,Kubernetes
+245,Communication
+246,Excel
+246,Data Visualization
+246,SQL
+246,Statistics
+247,Java
+247,Python
+247,System Design
+247,AWS
+247,Kubernetes
+248,Conflict Resolution
+248,HR Compliance
+249,Excel
+249,Workday
+249,Conflict Resolution
+249,HR Compliance
+249,Communication
+250,Excel
+250,Workday
+250,Conflict Resolution
+250,Communication
+251,Excel
+251,Data Visualization
+251,Tableau
+251,Statistics
+252,Salesforce
+252,Negotiation
+252,Communication
+252,CRM Tools
+253,Java
+253,Kubernetes
+253,Docker
+254,AWS
+254,Python
+254,Research Methods
+254,Statistics
+255,Negotiation
+255,CRM Tools
+256,Tableau
+256,SQL
+256,Statistics
+257,Excel
+257,Workday
+257,Conflict Resolution
+258,Java
+258,Python
+258,System Design
+258,AWS
+258,Kubernetes
+259,Research Methods
+259,Statistics
+260,Salesforce
+260,Negotiation
+260,CRM Tools
+261,Excel
+261,SQL
+262,AWS
+262,Statistics
+263,CI/CD
+263,AWS
+263,Kubernetes
+263,Cloud
+263,Docker
+264,Salesforce
+264,Communication
+265,Data Visualization
+265,Tableau
+265,Statistics
+266,MLOps
+266,AWS
+266,Kubernetes
+266,Cloud
+266,Terraform
+266,Docker
+267,Salesforce
+267,CRM Tools
+268,Excel
+268,Communication
+269,Excel
+269,Workday
+269,Conflict Resolution
+269,HR Compliance
+269,Communication
+270,Python
+270,Statistics
+271,Excel
+271,Workday
+271,HR Compliance
+271,Communication
+272,MLOps
+272,AWS
+272,Kubernetes
+272,Cloud
+272,Docker
+273,Python
+273,AWS
+273,PyTorch
+274,AWS
+274,Python
+274,Research Methods
+274,Statistics
+275,MLOps
+275,Python
+275,Machine Learning
+275,AWS
+275,PyTorch
+275,Statistics
+275,Docker
+276,MLOps
+276,CI/CD
+276,AWS
+276,Cloud
+276,Docker
+277,AWS
+277,Python
+277,Research Methods
+278,MLOps
+278,CI/CD
+278,Kubernetes
+278,Cloud
+278,Terraform
+279,AWS
+279,Research Methods
+279,Statistics
+280,Excel
+280,Workday
+280,Conflict Resolution
+280,Communication
+281,Excel
+281,Data Visualization
+281,SQL
+281,Statistics
+282,MLOps
+282,Python
+282,Machine Learning
+282,AWS
+282,Statistics
+282,Docker
+283,Data Visualization
+283,Tableau
+283,SQL
+283,Statistics
+284,AWS
+284,Kubernetes
+284,Docker
+285,Data Visualization
+285,Tableau
+286,Workday
+286,Conflict Resolution
+286,HR Compliance
+286,Communication
+287,Python
+287,AWS
+287,Kubernetes
+287,Docker
+288,Python
+288,Research Methods
+289,Excel
+289,Salesforce
+289,Negotiation
+289,Communication
+289,CRM Tools
+290,Excel
+290,Workday
+290,HR Compliance
+290,Communication
+291,MLOps
+291,CI/CD
+291,Cloud
+291,Terraform
+292,Java
+292,Python
+292,System Design
+292,AWS
+292,Kubernetes
+293,Excel
+293,Data Visualization
+293,Tableau
+293,SQL
+293,Statistics
+294,Python
+294,Research Methods
+294,Statistics
+295,AWS
+295,Kubernetes
+295,Cloud
+295,Terraform
+295,Docker
+295,Communication
+296,Java
+296,Python
+296,System Design
+296,AWS
+297,Workday
+297,Communication
+298,SQL
+298,Statistics
+299,Excel
+299,Workday
+299,Conflict Resolution
+299,HR Compliance
+299,Communication
+300,Excel
+300,HR Compliance
+300,Communication
+301,Salesforce
+301,Negotiation
+301,Communication
+301,CRM Tools
+302,Conflict Resolution
+302,Communication
+303,Excel
+303,Workday
+303,HR Compliance
+304,Excel
+304,Workday
+304,Conflict Resolution
+304,HR Compliance
+304,Communication
+305,Python
+305,Machine Learning
+305,PyTorch
+305,Docker
+306,Python
+306,AWS
+306,PyTorch
+306,Statistics
+306,Excel
+307,Excel
+307,Workday
+307,Conflict Resolution
+307,HR Compliance
+307,Communication
+308,Excel
+308,Salesforce
+308,Negotiation
+308,Communication
+308,CRM Tools
+309,Excel
+309,Workday
+309,HR Compliance
+309,Communication
+310,Excel
+310,Workday
+310,Conflict Resolution
+310,HR Compliance
+310,Communication
+311,CI/CD
+311,AWS
+311,Cloud
+311,Docker
+312,CI/CD
+312,AWS
+312,Kubernetes
+312,Cloud
+312,Terraform
+312,Communication
+313,Data Visualization
+313,Tableau
+313,Statistics
+313,Communication
+314,Excel
+314,Negotiation
+314,Communication
+314,CRM Tools
+315,Python
+315,AWS
+315,PyTorch
+315,Docker
+316,Python
+316,Research Methods
+317,Java
+317,Python
+317,System Design
+317,AWS
+317,Kubernetes
+317,Docker
+318,AWS
+318,Python
+318,Research Methods
+319,Java
+319,System Design
+319,AWS
+319,Docker
+319,Excel
+320,Excel
+320,Salesforce
+320,Communication
+321,Excel
+321,Communication
+322,Excel
+322,Workday
+322,Conflict Resolution
+322,HR Compliance
+322,Communication
+323,MLOps
+323,CI/CD
+323,AWS
+323,Kubernetes
+323,Cloud
+323,Terraform
+323,Docker
+324,MLOps
+324,Python
+324,Machine Learning
+324,AWS
+324,PyTorch
+324,Statistics
+324,Docker
+325,System Design
+325,AWS
+325,Kubernetes
+326,Tableau
+326,SQL
+326,Statistics
+327,Python
+327,PyTorch
+327,Statistics
+327,Docker
+328,Data Visualization
+328,SQL
+328,Statistics
+329,Excel
+329,Workday
+329,Conflict Resolution
+329,HR Compliance
+329,Communication
+330,AWS
+330,Research Methods
+330,Statistics
+331,Java
+331,Python
+331,System Design
+331,AWS
+331,Kubernetes
+331,Docker
+332,Python
+333,Python
+333,System Design
+333,AWS
+333,Kubernetes
+333,Docker
+334,Salesforce
+334,Negotiation
+334,Communication
+334,CRM Tools
+335,Python
+335,Machine Learning
+335,AWS
+335,PyTorch
+335,Statistics
+336,AWS
+336,Python
+336,Research Methods
+336,Statistics
+337,MLOps
+337,CI/CD
+337,Kubernetes
+337,Terraform
+337,Communication
+338,Java
+338,AWS
+338,Kubernetes
+338,Docker
+339,Excel
+339,Data Visualization
+339,Tableau
+339,SQL
+339,Statistics
+339,Communication
+340,Excel
+340,Workday
+340,Conflict Resolution
+341,Java
+341,Python
+341,System Design
+341,AWS
+341,Kubernetes
+341,Docker
+342,MLOps
+342,Python
+342,Machine Learning
+342,AWS
+342,PyTorch
+342,Statistics
+342,Docker
+343,Excel
+343,Data Visualization
+343,Tableau
+343,Statistics
+344,Workday
+344,Conflict Resolution
+345,Java
+345,Python
+345,System Design
+345,Kubernetes
+346,Excel
+346,Data Visualization
+347,AWS
+347,Python
+347,Statistics
+348,MLOps
+348,Python
+348,Machine Learning
+348,AWS
+348,PyTorch
+349,Java
+349,System Design
+349,AWS
+349,Kubernetes
+349,Docker
+349,Communication
+350,Excel
+350,Salesforce
+351,AWS
+351,Python
+351,Research Methods
+351,Statistics
+352,AWS
+352,Statistics
+353,Excel
+353,Workday
+353,Conflict Resolution
+353,HR Compliance
+353,Communication
+354,Python
+354,Machine Learning
+354,AWS
+354,PyTorch
+354,Statistics
+355,MLOps
+355,Python
+355,Machine Learning
+355,AWS
+355,PyTorch
+355,Docker
+356,Conflict Resolution
+356,HR Compliance
+356,Communication
+357,AWS
+357,Python
+357,Research Methods
+357,Statistics
+357,Excel
+358,MLOps
+358,CI/CD
+358,AWS
+358,Kubernetes
+358,Cloud
+358,Terraform
+358,Docker
+359,Excel
+359,Conflict Resolution
+359,HR Compliance
+360,CI/CD
+360,AWS
+360,Cloud
+360,Docker
+361,Excel
+361,Salesforce
+361,Negotiation
+361,Communication
+361,CRM Tools
+362,MLOps
+362,Python
+362,AWS
+362,PyTorch
+363,Java
+363,Python
+363,System Design
+363,AWS
+363,Docker
+364,Excel
+364,Salesforce
+364,Communication
+364,CRM Tools
+365,Python
+365,System Design
+365,AWS
+365,Kubernetes
+365,Docker
+366,MLOps
+366,Machine Learning
+366,AWS
+366,PyTorch
+366,Statistics
+366,Docker
+367,Excel
+367,Tableau
+367,SQL
+367,Statistics
+367,Communication
+368,MLOps
+368,Python
+368,AWS
+368,PyTorch
+368,Docker
+369,Python
+370,MLOps
+370,AWS
+370,PyTorch
+370,Statistics
+371,Excel
+371,Workday
+371,Conflict Resolution
+371,HR Compliance
+371,Communication
+372,MLOps
+372,Python
+372,Machine Learning
+372,Statistics
+373,MLOps
+373,Python
+373,Machine Learning
+373,AWS
+373,PyTorch
+373,Statistics
+373,Docker
+373,Communication
+374,Excel
+374,Communication
+374,CRM Tools
+375,Excel
+375,Communication
+375,CRM Tools
+376,Java
+376,Python
+376,System Design
+376,Kubernetes
+376,Docker
+376,Communication
+377,CI/CD
+377,Cloud
+377,Terraform
+378,MLOps
+378,Machine Learning
+378,AWS
+378,PyTorch
+378,Statistics
+378,Docker
+379,AWS
+380,Excel
+380,HR Compliance
+380,Communication
+381,Excel
+381,Data Visualization
+381,Tableau
+381,SQL
+381,Communication
+382,Excel
+382,Data Visualization
+382,Tableau
+382,SQL
+382,Statistics
+383,Java
+383,System Design
+384,Excel
+384,Workday
+384,Conflict Resolution
+384,HR Compliance
+385,Workday
+385,Conflict Resolution
+385,HR Compliance
+385,Communication
+386,Excel
+386,Workday
+386,Conflict Resolution
+386,HR Compliance
+387,Excel
+387,Workday
+387,Conflict Resolution
+387,HR Compliance
+387,Communication
+388,AWS
+388,Python
+388,Research Methods
+388,Statistics
+389,Excel
+389,Data Visualization
+389,Tableau
+389,Statistics
+390,Excel
+390,Data Visualization
+390,Tableau
+390,SQL
+391,Research Methods
+391,Statistics
+392,Python
+392,AWS
+392,Docker
+393,MLOps
+393,CI/CD
+393,AWS
+393,Kubernetes
+393,Cloud
+393,Terraform
+394,Salesforce
+394,Negotiation
+394,CRM Tools
+395,Research Methods
+395,Statistics
+396,MLOps
+396,CI/CD
+396,AWS
+396,Kubernetes
+396,Cloud
+396,Terraform
+396,Docker
+397,Data Visualization
+397,SQL
+397,Statistics
+398,Docker
+399,Java
+399,Python
+399,System Design
+399,AWS
+399,Kubernetes
+399,Docker
+399,Excel
+400,Excel
+400,Conflict Resolution
+400,HR Compliance
+400,Communication
+401,AWS
+401,Research Methods
+402,Java
+402,System Design
+403,AWS
+403,Research Methods
+403,Statistics
+404,MLOps
+404,Machine Learning
+404,AWS
+404,PyTorch
+404,Statistics
+405,MLOps
+405,Python
+405,Machine Learning
+405,Statistics
+405,Docker
+406,AWS
+406,Python
+406,Research Methods
+406,Statistics
+407,Java
+407,Python
+407,System Design
+407,AWS
+407,Kubernetes
+407,Docker
+408,Java
+408,Python
+408,System Design
+408,Kubernetes
+408,Docker
+409,Java
+409,System Design
+410,Data Visualization
+410,Tableau
+411,Java
+411,Python
+411,System Design
+411,AWS
+411,Docker
+412,Excel
+412,Negotiation
+412,Communication
+412,CRM Tools
+413,Excel
+413,Salesforce
+413,Communication
+413,CRM Tools
+414,Workday
+414,Conflict Resolution
+414,HR Compliance
+415,MLOps
+415,Python
+415,AWS
+415,PyTorch
+415,Statistics
+415,Docker
+416,MLOps
+416,Python
+416,Machine Learning
+416,AWS
+416,PyTorch
+416,Statistics
+417,MLOps
+417,CI/CD
+417,AWS
+417,Kubernetes
+417,Cloud
+417,Terraform
+417,Docker
+418,Excel
+418,Conflict Resolution
+419,Conflict Resolution
+419,Excel
+420,Excel
+420,Tableau
+420,SQL
+421,Excel
+421,Communication
+422,Excel
+422,Salesforce
+422,Negotiation
+422,Communication
+422,CRM Tools
+423,Python
+423,Research Methods
+424,AWS
+424,Research Methods
+424,Communication
+425,Conflict Resolution
+425,HR Compliance
+425,Communication
+426,Conflict Resolution
+426,HR Compliance
+426,Communication
+426,Excel
+427,MLOps
+427,Python
+427,AWS
+427,PyTorch
+427,Statistics
+428,Excel
+428,Workday
+428,Conflict Resolution
+428,HR Compliance
+428,Communication
+429,CI/CD
+429,AWS
+429,Kubernetes
+429,Docker
+430,Excel
+430,HR Compliance
+430,Communication
+431,Data Visualization
+431,Tableau
+431,SQL
+431,Statistics
+432,Excel
+432,Workday
+432,Conflict Resolution
+432,HR Compliance
+432,Communication
+433,Excel
+433,Workday
+433,Conflict Resolution
+433,HR Compliance
+433,Communication
+434,Excel
+434,Workday
+434,Conflict Resolution
+434,HR Compliance
+435,Java
+435,System Design
+435,AWS
+435,Kubernetes
+435,Docker
+435,Communication
+436,AWS
+436,Python
+436,Research Methods
+436,Communication
+437,Workday
+437,Conflict Resolution
+437,HR Compliance
+437,Communication
+438,AWS
+438,Python
+438,Research Methods
+438,Statistics
+439,MLOps
+439,Python
+439,Machine Learning
+439,AWS
+439,PyTorch
+439,Statistics
+439,Excel
+440,Java
+440,System Design
+440,AWS
+440,Docker
+441,MLOps
+441,AWS
+441,Kubernetes
+441,Terraform
+442,Java
+442,System Design
+442,Kubernetes
+442,Docker
+442,Communication
+443,MLOps
+443,AWS
+443,Kubernetes
+443,Cloud
+443,Docker
+444,Data Visualization
+444,Tableau
+444,SQL
+444,Statistics
+445,Salesforce
+445,Negotiation
+445,CRM Tools
+446,MLOps
+446,Machine Learning
+446,AWS
+446,PyTorch
+446,Statistics
+446,Docker
+446,Communication
+447,AWS
+447,Research Methods
+447,Statistics
+448,AWS
+448,Python
+448,Statistics
+449,CI/CD
+449,Kubernetes
+449,Cloud
+449,Terraform
+449,Docker
+450,SQL
+450,Statistics
+451,MLOps
+451,Python
+451,Machine Learning
+451,AWS
+451,PyTorch
+451,Statistics
+451,Docker
+451,Excel
+452,Data Visualization
+453,Workday
+453,Conflict Resolution
+453,HR Compliance
+453,Communication
+453,Excel
+454,Excel
+454,Data Visualization
+454,Tableau
+454,SQL
+455,MLOps
+455,Python
+455,Machine Learning
+455,AWS
+455,Statistics
+455,Communication
+456,Salesforce
+456,Negotiation
+456,CRM Tools
+457,Excel
+457,Workday
+457,Conflict Resolution
+457,HR Compliance
+457,Communication
+458,Conflict Resolution
+458,Excel
+459,Excel
+459,Data Visualization
+459,Tableau
+459,SQL
+459,Statistics
+460,MLOps
+460,Python
+460,AWS
+460,PyTorch
+460,Docker
+461,MLOps
+461,Kubernetes
+461,Cloud
+461,Terraform
+461,Docker
+462,Research Methods
+463,Excel
+463,SQL
+463,Communication
+464,Java
+464,Python
+464,System Design
+464,AWS
+464,Kubernetes
+464,Docker
+465,MLOps
+465,CI/CD
+465,AWS
+465,Kubernetes
+465,Terraform
+465,Docker
+466,Java
+466,Python
+466,System Design
+466,AWS
+467,Research Methods
+467,Statistics
+468,MLOps
+468,CI/CD
+468,AWS
+468,Docker
+469,Java
+469,Python
+470,Excel
+470,Salesforce
+470,Negotiation
+470,Communication
+470,CRM Tools
+471,Python
+471,Statistics
+472,Data Visualization
+472,SQL
+473,Excel
+473,HR Compliance
+473,Communication
+474,Excel
+474,Salesforce
+474,Negotiation
+474,Communication
+474,CRM Tools
+475,Excel
+475,Salesforce
+475,Negotiation
+475,Communication
+475,CRM Tools
+476,Salesforce
+476,Communication
+476,CRM Tools
+477,MLOps
+477,Python
+477,Machine Learning
+477,AWS
+477,PyTorch
+477,Statistics
+477,Docker
+478,Excel
+479,MLOps
+479,CI/CD
+479,AWS
+479,Kubernetes
+479,Cloud
+479,Terraform
+479,Docker
+479,Excel
+480,Workday
+480,Communication
+481,Java
+481,Python
+481,System Design
+481,AWS
+481,Kubernetes
+481,Docker
+482,MLOps
+482,AWS
+482,PyTorch
+482,Docker
+482,Communication
+483,Excel
+483,Tableau
+483,SQL
+483,Statistics
+484,Research Methods
+484,Statistics
+485,Java
+485,Python
+485,AWS
+485,Kubernetes
+485,Docker
+485,Communication
+486,MLOps
+486,Statistics
+487,MLOps
+487,Python
+487,Machine Learning
+487,AWS
+487,PyTorch
+487,Statistics
+487,Docker
+488,Excel
+488,Data Visualization
+488,Tableau
+488,SQL
+488,Statistics
+489,Excel
+489,CRM Tools
+490,Data Visualization
+490,SQL
+490,Statistics
+490,Communication
+491,MLOps
+491,Python
+491,Machine Learning
+491,PyTorch
+491,Statistics
+491,Docker
+492,Excel
+492,Negotiation
+492,Communication
+492,CRM Tools
+493,Conflict Resolution
+493,Communication
+494,MLOps
+494,Python
+494,AWS
+494,PyTorch
+494,Statistics
+494,Docker
+494,Excel
+495,Excel
+495,Workday
+495,Conflict Resolution
+495,HR Compliance
+495,Communication
+496,System Design
+496,Kubernetes
+497,Excel
+497,Workday
+497,Conflict Resolution
+497,HR Compliance
+497,Communication
+498,MLOps
+498,Python
+498,Machine Learning
+498,AWS
+498,PyTorch
+498,Statistics
+498,Docker
+498,Excel
+499,Excel
+499,Data Visualization
+499,Tableau
+499,SQL
+499,Statistics
+500,Conflict Resolution
+500,HR Compliance
+500,Communication
+501,MLOps
+501,CI/CD
+501,Cloud
+501,Terraform
+501,Docker
+502,Excel
+502,SQL
+502,Statistics
+503,MLOps
+503,Machine Learning
+503,AWS
+503,PyTorch
+503,Statistics
+503,Docker
+504,Python
+504,AWS
+504,Statistics
+504,Docker
+505,AWS
+505,Python
+505,Research Methods
+505,Statistics
+506,AWS
+506,Research Methods
+506,Statistics
+507,Excel
+507,Workday
+507,Conflict Resolution
+507,HR Compliance
+507,Communication
+508,Excel
+508,Conflict Resolution
+508,HR Compliance
+508,Communication
+509,Excel
+509,Salesforce
+509,Negotiation
+509,Communication
+510,MLOps
+510,Python
+510,Machine Learning
+510,AWS
+510,PyTorch
+510,Statistics
+511,MLOps
+511,Python
+511,AWS
+511,Statistics
+511,Docker
+512,Java
+512,System Design
+512,Kubernetes
+513,AWS
+513,Python
+513,Statistics
+514,AWS
+514,Python
+514,Research Methods
+514,Statistics
+515,MLOps
+515,Python
+515,AWS
+515,PyTorch
+515,Statistics
+515,Docker
+515,Communication
+516,Salesforce
+517,MLOps
+517,CI/CD
+517,AWS
+517,Kubernetes
+517,Cloud
+517,Terraform
+517,Docker
+518,Excel
+518,Salesforce
+518,Communication
+519,MLOps
+519,Machine Learning
+519,AWS
+519,PyTorch
+519,Statistics
+520,Excel
+520,Salesforce
+520,Negotiation
+520,CRM Tools
+520,Communication
+521,MLOps
+521,Python
+521,Machine Learning
+521,AWS
+521,PyTorch
+521,Statistics
+521,Docker
+522,Data Visualization
+522,Tableau
+522,Statistics
+523,Python
+523,Research Methods
+523,Statistics
+524,AWS
+524,Research Methods
+524,Statistics
+525,MLOps
+525,AWS
+525,Kubernetes
+525,Docker
+526,MLOps
+526,AWS
+526,Kubernetes
+526,Cloud
+526,Terraform
+526,Docker
+527,AWS
+527,Kubernetes
+527,Docker
+528,Excel
+528,Workday
+528,HR Compliance
+529,MLOps
+529,Python
+529,Machine Learning
+529,AWS
+529,PyTorch
+529,Statistics
+529,Docker
+530,Excel
+530,Data Visualization
+530,SQL
+530,Statistics
+531,Negotiation
+531,Communication
+532,Java
+533,Excel
+533,Data Visualization
+533,Tableau
+533,Statistics
+534,Excel
+534,Workday
+534,Conflict Resolution
+534,HR Compliance
+534,Communication
+535,Workday
+535,Conflict Resolution
+535,HR Compliance
+535,Communication
+536,System Design
+536,AWS
+536,Kubernetes
+536,Docker
+537,Java
+537,System Design
+537,AWS
+537,Kubernetes
+537,Docker
+538,MLOps
+538,Kubernetes
+538,Cloud
+538,Terraform
+538,Docker
+539,AWS
+539,Research Methods
+539,Statistics
+540,Java
+540,System Design
+541,Data Visualization
+541,SQL
+541,Statistics
+542,Excel
+542,Workday
+542,HR Compliance
+542,Communication
+543,Python
+543,Statistics
+543,Docker
+544,AWS
+544,Research Methods
+544,Excel
+545,Excel
+546,Excel
+546,Data Visualization
+546,Tableau
+546,SQL
+547,Excel
+547,Data Visualization
+547,Tableau
+547,Statistics
+548,Java
+548,Python
+548,System Design
+548,AWS
+548,Kubernetes
+548,Docker
+549,Workday
+549,Conflict Resolution
+550,AWS
+550,Kubernetes
+551,Excel
+551,Salesforce
+551,Negotiation
+551,Communication
+551,CRM Tools
+552,Excel
+552,Workday
+552,Conflict Resolution
+552,Communication
+553,CI/CD
+553,AWS
+553,Kubernetes
+553,Terraform
+553,Docker
+554,MLOps
+554,CI/CD
+554,AWS
+554,Kubernetes
+554,Cloud
+554,Docker
+555,Negotiation
+555,Communication
+555,CRM Tools
+556,Excel
+556,Salesforce
+556,Negotiation
+556,Communication
+556,CRM Tools
+557,Excel
+557,SQL
+557,Statistics
+558,Java
+558,Python
+558,System Design
+558,AWS
+558,Kubernetes
+558,Docker
+558,Excel
+559,Data Visualization
+559,Tableau
+559,SQL
+559,Statistics
+559,Communication
+560,Excel
+560,Workday
+560,Conflict Resolution
+560,HR Compliance
+560,Communication
+561,Data Visualization
+561,Tableau
+561,Statistics
+562,AWS
+562,Research Methods
+564,MLOps
+564,CI/CD
+564,AWS
+564,Cloud
+565,Excel
+566,MLOps
+566,Python
+566,AWS
+566,Docker
+567,MLOps
+567,Python
+567,Machine Learning
+567,AWS
+567,PyTorch
+567,Statistics
+567,Docker
+568,Java
+568,Python
+568,System Design
+568,AWS
+568,Docker
+569,AWS
+569,Python
+569,Statistics
+570,Excel
+570,Salesforce
+570,Negotiation
+570,Communication
+570,CRM Tools
+571,Excel
+571,Salesforce
+571,Negotiation
+572,Negotiation
+572,CRM Tools
+573,Workday
+573,Conflict Resolution
+573,Communication
+574,Research Methods
+574,Statistics
+575,Excel
+575,Data Visualization
+575,Tableau
+575,SQL
+575,Statistics
+576,AWS
+576,Research Methods
+576,Statistics
+576,Communication
+577,MLOps
+577,Python
+577,Machine Learning
+577,AWS
+577,PyTorch
+577,Statistics
+577,Docker
+578,Python
+578,Research Methods
+578,Statistics
+578,Excel
+579,Excel
+579,Data Visualization
+579,Tableau
+579,SQL
+580,Java
+580,Python
+580,System Design
+580,Kubernetes
+580,Docker
+581,CI/CD
+581,AWS
+581,Kubernetes
+581,Cloud
+581,Terraform
+581,Docker
+582,Data Visualization
+582,SQL
+583,Excel
+583,Workday
+583,HR Compliance
+583,Communication
+584,AWS
+584,Python
+584,Research Methods
+584,Statistics
+585,MLOps
+585,CI/CD
+585,AWS
+585,Cloud
+585,Docker
+586,AWS
+586,Python
+586,Research Methods
+587,MLOps
+587,CI/CD
+587,AWS
+587,Kubernetes
+587,Cloud
+587,Terraform
+587,Docker
+587,Communication
+588,Salesforce
+588,Negotiation
+588,CRM Tools
+589,Excel
+589,Tableau
+589,SQL
+590,AWS
+590,Kubernetes
+590,Cloud
+590,Terraform
+590,Docker
+591,Excel
+591,Salesforce
+591,Negotiation
+591,Communication
+591,CRM Tools
+592,Python
+592,Machine Learning
+592,AWS
+592,PyTorch
+593,Data Visualization
+593,Tableau
+593,Statistics
+594,MLOps
+594,CI/CD
+594,AWS
+594,Cloud
+594,Terraform
+595,Python
+595,Machine Learning
+595,AWS
+595,PyTorch
+595,Statistics
+595,Docker
+596,AWS
+596,Python
+596,Research Methods
+596,Statistics
+597,Excel
+597,Data Visualization
+597,Tableau
+597,SQL
+597,Statistics
+598,MLOps
+598,CI/CD
+598,AWS
+598,Cloud
+598,Terraform
+599,Excel
+599,CRM Tools
+600,AWS
+600,Kubernetes
+600,Cloud
+600,Terraform
+600,Docker

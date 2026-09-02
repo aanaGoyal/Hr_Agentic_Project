@@ -1,0 +1,26 @@
+Skill,Required,Available,MissingCount,MissingPct,Severity,ReskillCount,HireCount
+AWS,325,243,82,13.7,HIGH,49,33
+Python,254,177,77,12.8,HIGH,46,31
+Excel,275,201,74,12.3,HIGH,44,30
+Statistics,257,185,72,12.0,HIGH,43,29
+Docker,240,168,72,12.0,HIGH,43,29
+Communication,189,139,50,8.3,HIGH,30,20
+Kubernetes,154,109,45,7.5,HIGH,27,18
+MLOps,157,115,42,7.0,HIGH,25,17
+Workday,105,74,31,5.2,HIGH,19,12
+HR Compliance,105,74,31,5.2,HIGH,19,12
+Machine Learning,86,57,29,4.8,HIGH,17,12
+Tableau,86,60,26,4.3,HIGH,16,10
+Negotiation,84,59,25,4.2,HIGH,15,10
+SQL,86,61,25,4.2,HIGH,15,10
+Conflict Resolution,105,81,24,4.0,HIGH,14,10
+Terraform,71,47,24,4.0,HIGH,14,10
+CI/CD,71,49,22,3.7,MEDIUM,13,9
+Salesforce,84,62,22,3.7,MEDIUM,13,9
+Research Methods,85,64,21,3.5,MEDIUM,13,8
+PyTorch,86,65,21,3.5,MEDIUM,13,8
+Cloud,71,51,20,3.3,MEDIUM,12,8
+System Design,83,63,20,3.3,MEDIUM,12,8
+CRM Tools,84,65,19,3.2,MEDIUM,11,8
+Data Visualization,86,67,19,3.2,MEDIUM,11,8
+Java,83,66,17,2.8,MEDIUM,10,7

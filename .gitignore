@@ -1,0 +1,3 @@
+".env"  echo "__pycache__/"  echo "*.pyc"  echo ".myenv/" 
+.env.example
+.ipynb_checkpoints/

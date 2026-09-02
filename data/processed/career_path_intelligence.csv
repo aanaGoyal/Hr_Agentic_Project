@@ -1,0 +1,341 @@
+EmployeeID,CurrentRole,TargetRole,MatchedSkills,MissingSkills,ReadinessToday,ReadinessAfterTraining
+2,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+3,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+4,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+5,Software Engineer,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+6,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+9,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+10,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+12,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+14,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+16,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+17,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+18,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+19,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+22,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+23,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+26,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+27,Research Scientist,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+29,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+31,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+34,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+37,Software Engineer,ML Engineer,"['Docker', 'Python']","['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+38,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+39,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+44,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+45,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+47,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+49,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+50,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+52,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+53,ML Engineer,MLOps Engineer,['Docker'],"['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+54,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+55,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+56,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+57,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+58,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+59,Software Engineer,ML Engineer,['Docker'],"['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+61,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+62,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+64,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+65,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+67,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+70,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+71,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+73,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+74,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+75,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+77,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+79,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+80,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+81,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+85,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+86,Research Scientist,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+88,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+90,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+93,Research Scientist,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+94,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+95,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+96,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+98,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+99,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+100,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+101,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+102,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+104,Software Engineer,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+107,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+111,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+112,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+113,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+114,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+115,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+118,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+119,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+125,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+126,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+127,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+128,Software Engineer,ML Engineer,"['Docker', 'Python']","['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+132,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+133,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+135,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+136,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+137,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+138,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+139,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+140,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+142,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+144,Research Scientist,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+146,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+151,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+152,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+153,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+158,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+159,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+160,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+161,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+162,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+164,Research Scientist,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+165,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+167,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+168,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+169,ML Engineer,MLOps Engineer,['MLOps'],"['AWS', 'CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",14.3,87.2
+170,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+174,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+175,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+176,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+178,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+180,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+183,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+184,Software Engineer,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+185,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+189,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+190,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+191,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+193,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+194,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+197,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+198,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+200,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+207,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+210,ML Engineer,MLOps Engineer,[],"['AWS', 'CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",0.0,85.0
+212,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+216,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+217,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+218,Software Engineer,ML Engineer,['Docker'],"['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+222,Software Engineer,ML Engineer,['Docker'],"['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+223,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+224,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+227,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+228,ML Engineer,MLOps Engineer,['Docker'],"['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+230,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+232,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+233,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+234,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+239,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+240,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+241,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+242,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+243,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+245,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+246,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+247,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+251,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+253,Software Engineer,ML Engineer,['Docker'],"['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+254,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+256,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+258,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+259,Research Scientist,ML Engineer,['Statistics'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",14.3,87.2
+261,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+262,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+265,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+270,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+273,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+274,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+275,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+277,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+279,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+281,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+282,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+283,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+285,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+287,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+288,Research Scientist,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+292,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+293,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+294,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+296,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+298,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+305,ML Engineer,MLOps Engineer,['Docker'],"['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+306,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+313,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+315,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+316,Research Scientist,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+317,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+318,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+319,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+324,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+325,Software Engineer,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+326,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+327,ML Engineer,MLOps Engineer,['Docker'],"['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+328,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+330,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+331,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+332,Research Scientist,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+333,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+335,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+336,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+338,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+339,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+341,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+342,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+343,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+345,Software Engineer,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+346,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+347,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+348,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+349,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+351,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+352,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+354,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+355,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+357,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+362,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+363,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+365,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+366,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+367,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+368,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+369,ML Engineer,MLOps Engineer,[],"['AWS', 'CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",0.0,85.0
+370,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+372,ML Engineer,MLOps Engineer,['MLOps'],"['AWS', 'CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",14.3,87.2
+373,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+376,Software Engineer,ML Engineer,"['Docker', 'Python']","['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+378,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+379,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+381,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+382,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+383,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+388,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+389,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+390,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+391,Research Scientist,ML Engineer,['Statistics'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",14.3,87.2
+392,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+395,Research Scientist,ML Engineer,['Statistics'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",14.3,87.2
+397,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+398,Software Engineer,ML Engineer,['Docker'],"['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+399,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+401,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+402,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+403,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+404,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+405,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+406,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+407,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+408,Software Engineer,ML Engineer,"['Docker', 'Python']","['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+409,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+410,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+411,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+415,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+416,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+420,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+423,Research Scientist,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+424,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+427,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+431,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+435,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+436,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+438,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+439,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+440,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+442,Software Engineer,ML Engineer,['Docker'],"['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+444,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+446,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+447,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+448,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+450,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+451,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+452,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+454,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+455,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+459,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+460,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+462,Research Scientist,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+463,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+464,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+466,Software Engineer,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+467,Research Scientist,ML Engineer,['Statistics'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",14.3,87.2
+469,Software Engineer,ML Engineer,['Python'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",14.3,87.2
+471,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+472,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+477,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+481,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+482,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+483,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+484,Research Scientist,ML Engineer,['Statistics'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",14.3,87.2
+485,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+486,ML Engineer,MLOps Engineer,['MLOps'],"['AWS', 'CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",14.3,87.2
+487,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+488,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+490,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+491,ML Engineer,MLOps Engineer,"['Docker', 'MLOps']","['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",28.6,89.3
+494,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+496,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+498,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+499,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+502,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+503,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+504,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+505,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+506,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+510,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+511,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+512,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+513,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+514,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+515,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+519,ML Engineer,MLOps Engineer,"['AWS', 'MLOps']","['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'Terraform']",28.6,89.3
+521,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+522,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+523,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+524,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+527,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+529,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+530,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+532,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+533,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+536,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+537,Software Engineer,ML Engineer,"['AWS', 'Docker']","['MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",28.6,89.3
+539,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+540,Software Engineer,ML Engineer,[],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",0.0,85.0
+541,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+543,ML Engineer,MLOps Engineer,['Docker'],"['AWS', 'CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+544,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+546,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+547,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+548,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+550,Software Engineer,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+557,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+558,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+559,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+561,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+562,Research Scientist,ML Engineer,['AWS'],"['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python', 'Statistics']",14.3,87.2
+566,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+567,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+568,Software Engineer,ML Engineer,"['AWS', 'Docker', 'Python']","['MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",42.9,91.5
+569,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+574,Research Scientist,ML Engineer,['Statistics'],"['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",14.3,87.2
+575,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+576,Research Scientist,ML Engineer,"['AWS', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Python']",28.6,89.3
+577,ML Engineer,MLOps Engineer,"['AWS', 'Docker', 'MLOps']","['CI/CD', 'Cloud', 'Kubernetes', 'Terraform']",42.9,91.5
+578,Research Scientist,ML Engineer,"['Python', 'Statistics']","['AWS', 'Docker', 'MLOps', 'Machine Learning', 'PyTorch']",28.6,89.3
+579,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+580,Software Engineer,ML Engineer,"['Docker', 'Python']","['AWS', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+582,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+584,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+586,Research Scientist,ML Engineer,"['AWS', 'Python']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch', 'Statistics']",28.6,89.3
+589,Data Analyst,Research Scientist,[],"['AWS', 'Python', 'Research Methods', 'Statistics']",0.0,85.0
+592,ML Engineer,MLOps Engineer,['AWS'],"['CI/CD', 'Cloud', 'Docker', 'Kubernetes', 'MLOps', 'Terraform']",14.3,87.2
+593,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8
+595,ML Engineer,MLOps Engineer,"['AWS', 'Docker']","['CI/CD', 'Cloud', 'Kubernetes', 'MLOps', 'Terraform']",28.6,89.3
+596,Research Scientist,ML Engineer,"['AWS', 'Python', 'Statistics']","['Docker', 'MLOps', 'Machine Learning', 'PyTorch']",42.9,91.5
+597,Data Analyst,Research Scientist,['Statistics'],"['AWS', 'Python', 'Research Methods']",25.0,88.8

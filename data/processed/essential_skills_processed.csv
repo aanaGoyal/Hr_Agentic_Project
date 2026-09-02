@@ -1,0 +1,26 @@
+OccupationID,Skill,Importance
+1,Negotiation,High
+1,CRM Tools,Medium
+1,Communication,Medium
+2,SQL,Medium
+2,Excel,High
+2,Statistics,High
+2,Data Visualization,Medium
+3,Python,Medium
+3,Machine Learning,Medium
+3,MLOps,Medium
+3,Statistics,High
+4,Communication,Medium
+4,HR Compliance,Medium
+4,Conflict Resolution,Medium
+5,Python,Medium
+5,Statistics,High
+5,Research Methods,High
+6,Python,High
+6,Java,Medium
+6,System Design,High
+6,Docker,High
+7,MLOps,High
+7,Docker,High
+7,Cloud,Medium
+7,CI/CD,Medium

@@ -1,0 +1,20 @@
+OccupationID,SoftwareSkill,Importance
+1,Salesforce,High
+1,Excel,Medium
+2,SQL,Medium
+2,Tableau,Medium
+2,Excel,High
+3,AWS,Medium
+3,Docker,High
+3,PyTorch,Medium
+4,Workday,High
+4,Excel,Medium
+5,Python (Jupyter),High
+5,AWS Cloud,Medium
+6,Docker,Medium
+6,Kubernetes,High
+6,AWS,Medium
+7,Amazon Web Services,Medium
+7,Docker,High
+7,Kubernetes,High
+7,Terraform,Medium

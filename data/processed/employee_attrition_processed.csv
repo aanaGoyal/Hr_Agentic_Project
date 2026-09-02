@@ -1,0 +1,601 @@
+EmployeeID,Age,Department,JobRole,MonthlyIncome,DistanceFromHome,YearsAtCompany,YearsSinceLastPromotion,NumCompaniesWorked,JobSatisfaction,WorkLifeBalance,OverTime,Attrition
+1,43.0,IT,Sales Executive,6947.0,21,1,1,6,1.0,1.0,No,Yes
+2,47.0,IT,Research Scientist,6285.5,25,6,1,6,2.0,1.0,No,Yes
+3,33.0,IT,Software Engineer,7944.0,22,2,2,5,2.0,2.0,Yes,Yes
+4,47.0,Research & Development,Software Engineer,8777.0,28,1,0,3,3.0,2.0,Yes,Yes
+5,38.0,IT,Software Engineer,8876.0,24,1,1,0,1.0,3.0,Yes,Yes
+6,31.0,IT,Software Engineer,9888.0,25,1,0,4,1.0,1.0,No,Yes
+7,33.0,Research & Development,Sales Executive,2035.0,2,4,4,1,4.0,1.0,No,Yes
+8,38.0,Human Resources,Sales Executive,6285.5,10,6,0,0,2.0,2.0,No,Yes
+9,41.0,Sales,ML Engineer,6285.5,20,9,6,5,2.0,2.0,No,Yes
+10,28.0,IT,Data Analyst,6285.5,23,10,8,3,4.0,4.0,No,No
+11,40.0,Research & Development,HR Executive,6752.0,15,4,3,5,3.0,1.0,No,Yes
+12,38.0,Human Resources,ML Engineer,7749.0,20,0,0,0,1.0,2.0,No,Yes
+13,42.0,Human Resources,Sales Executive,7597.0,28,0,0,0,4.0,1.0,No,Yes
+14,18.0,IT,Software Engineer,4357.0,9,2,1,0,4.0,2.0,No,Yes
+15,32.0,Research & Development,MLOps Engineer,6955.0,10,1,1,0,2.0,3.0,No,Yes
+16,29.0,Research & Development,Data Analyst,7847.0,19,1,1,4,4.0,2.0,No,Yes
+17,25.0,Sales,ML Engineer,6084.0,4,4,2,4,1.0,3.0,No,Yes
+18,50.0,Research & Development,Data Analyst,12278.0,2,4,4,6,1.0,4.0,Yes,Yes
+19,28.0,IT,Data Analyst,5927.0,28,2,0,0,2.0,4.0,No,Yes
+20,29.0,Sales,Sales Executive,9705.0,3,14,12,5,2.0,1.0,No,Yes
+21,49.0,Research & Development,Sales Executive,7348.0,5,5,5,5,4.0,4.0,Yes,Yes
+22,29.0,IT,Software Engineer,7604.0,20,14,4,0,2.0,2.0,No,Yes
+23,32.0,Research & Development,Data Analyst,1500.0,8,2,1,3,4.0,2.0,No,No
+24,26.0,IT,MLOps Engineer,3046.0,27,1,1,1,2.0,1.0,No,Yes
+25,34.0,Sales,MLOps Engineer,8150.0,15,0,0,5,1.0,1.0,Yes,Yes
+26,39.0,IT,ML Engineer,12006.0,7,0,0,7,3.0,4.0,Yes,No
+27,47.0,Research & Development,Research Scientist,9746.0,24,0,0,7,2.0,4.0,Yes,No
+28,36.0,Human Resources,Sales Executive,1500.0,15,5,2,6,4.0,2.0,No,Yes
+29,52.0,Research & Development,Research Scientist,6285.0,11,1,1,1,1.0,3.0,No,No
+30,40.0,Research & Development,Sales Executive,5462.0,19,14,9,6,4.0,2.0,No,No
+31,37.0,IT,Data Analyst,9057.0,3,5,5,4,1.0,3.0,No,No
+32,30.0,Human Resources,Sales Executive,4151.0,8,7,4,4,2.0,1.0,No,No
+33,37.0,Research & Development,HR Executive,4431.0,15,11,1,6,3.0,3.0,No,Yes
+34,44.0,Research & Development,ML Engineer,7446.0,27,0,0,6,3.0,3.0,No,Yes
+35,27.0,Sales,HR Executive,3622.0,11,2,1,6,1.0,3.0,No,No
+36,41.0,IT,Sales Executive,12114.0,1,5,3,5,4.0,3.0,Yes,No
+37,29.0,Research & Development,Software Engineer,1555.0,12,0,0,7,3.0,4.0,No,Yes
+38,31.0,Sales,Software Engineer,8355.0,3,8,2,1,4.0,3.0,No,No
+39,34.0,IT,Data Analyst,1962.0,2,0,0,7,1.0,1.0,No,Yes
+40,38.0,IT,HR Executive,3806.0,4,11,8,0,4.0,4.0,Yes,Yes
+41,23.0,IT,Sales Executive,12522.0,22,1,1,4,1.0,2.0,No,Yes
+42,45.0,IT,HR Executive,4210.0,16,0,0,6,4.0,1.0,No,Yes
+43,23.0,IT,Sales Executive,7841.0,19,1,1,3,1.0,2.0,No,Yes
+44,46.0,Sales,Research Scientist,7598.0,18,1,0,1,1.0,4.0,No,No
+45,54.0,Sales,Research Scientist,5075.0,17,0,0,4,2.0,1.0,No,Yes
+46,26.0,IT,MLOps Engineer,11516.0,17,3,0,7,3.0,2.0,No,Yes
+47,29.0,IT,Data Analyst,10298.0,24,3,0,0,1.0,1.0,Yes,Yes
+48,33.0,Research & Development,Sales Executive,9633.0,7,11,8,4,3.0,4.0,No,No
+49,31.0,IT,Data Analyst,6848.0,10,9,6,0,1.0,3.0,No,Yes
+50,51.0,Sales,ML Engineer,5830.0,15,7,6,3,1.0,4.0,No,Yes
+51,33.0,Research & Development,HR Executive,1500.0,6,4,0,2,1.0,4.0,Yes,Yes
+52,29.0,Sales,ML Engineer,5942.0,18,3,2,0,3.0,3.0,No,Yes
+53,39.0,IT,ML Engineer,3862.0,4,5,2,6,2.0,3.0,No,Yes
+54,30.0,IT,ML Engineer,4214.0,21,4,2,3,2.0,1.0,Yes,Yes
+55,38.0,Sales,Software Engineer,5616.0,19,7,4,7,4.0,3.0,No,No
+56,54.0,IT,ML Engineer,12138.0,4,3,0,7,3.0,3.0,No,Yes
+57,25.0,Research & Development,ML Engineer,7345.0,10,19,3,7,4.0,2.0,No,Yes
+58,41.0,Research & Development,Research Scientist,8383.0,11,12,12,0,1.0,1.0,No,Yes
+59,43.0,IT,Software Engineer,6612.0,28,0,0,4,1.0,3.0,No,Yes
+60,27.0,IT,HR Executive,5081.0,11,7,4,5,2.0,3.0,No,Yes
+61,41.0,Sales,Data Analyst,7101.0,24,3,1,6,4.0,2.0,No,No
+62,38.0,IT,ML Engineer,12337.0,15,3,0,0,4.0,1.0,Yes,Yes
+63,34.0,Human Resources,MLOps Engineer,5301.0,22,7,7,2,2.0,4.0,No,No
+64,44.0,Research & Development,Data Analyst,9425.0,9,5,0,1,4.0,1.0,Yes,Yes
+65,42.0,IT,ML Engineer,4823.0,27,3,2,1,4.0,3.0,No,Yes
+66,45.0,Research & Development,Sales Executive,3127.0,2,36,6,7,4.0,2.0,Yes,Yes
+67,46.0,Sales,ML Engineer,5724.0,7,8,3,1,1.0,2.0,No,Yes
+68,26.0,Sales,MLOps Engineer,2922.0,13,1,0,4,4.0,2.0,No,Yes
+69,39.0,IT,Sales Executive,8067.0,2,1,0,1,2.0,2.0,No,Yes
+70,44.0,Sales,Research Scientist,10657.0,18,0,0,1,4.0,3.0,Yes,Yes
+71,41.0,IT,Research Scientist,5452.0,17,20,14,3,4.0,4.0,Yes,Yes
+72,42.0,IT,Sales Executive,9090.0,24,5,5,0,2.0,1.0,No,Yes
+73,52.0,Sales,Data Analyst,11227.0,7,12,10,1,4.0,2.0,No,No
+74,36.0,Research & Development,Data Analyst,6540.0,17,0,0,7,3.0,4.0,No,No
+75,25.0,Sales,Research Scientist,6070.0,20,0,0,0,3.0,2.0,No,Yes
+76,27.0,Sales,MLOps Engineer,10349.0,8,6,5,6,4.0,3.0,No,No
+77,39.0,Sales,Data Analyst,5093.0,5,10,5,5,4.0,1.0,No,Yes
+78,39.0,Sales,HR Executive,6601.0,19,2,1,3,2.0,2.0,No,Yes
+79,26.0,IT,Software Engineer,5358.0,1,10,4,1,3.0,3.0,No,No
+80,36.0,Research & Development,Research Scientist,9479.0,12,5,0,3,3.0,2.0,No,Yes
+81,39.0,Sales,Data Analyst,1500.0,1,1,1,7,2.0,1.0,No,Yes
+82,44.0,IT,HR Executive,6336.0,4,1,0,0,2.0,3.0,No,Yes
+83,36.0,Research & Development,MLOps Engineer,7289.0,4,3,2,7,2.0,4.0,No,Yes
+84,33.0,Sales,Sales Executive,4547.0,16,0,0,1,4.0,4.0,No,Yes
+85,41.0,Human Resources,Data Analyst,5983.0,12,4,1,0,4.0,4.0,No,No
+86,27.0,Sales,Research Scientist,4322.0,12,0,0,7,4.0,3.0,No,No
+87,49.0,Research & Development,HR Executive,6917.0,1,6,2,6,2.0,1.0,No,Yes
+88,37.0,Research & Development,Data Analyst,12265.0,5,0,0,1,1.0,4.0,No,Yes
+89,38.0,Sales,Sales Executive,7512.0,18,3,2,4,2.0,4.0,No,No
+90,41.0,IT,Research Scientist,11296.0,10,4,3,0,4.0,3.0,Yes,Yes
+91,27.0,Sales,HR Executive,5604.0,1,7,0,7,4.0,4.0,No,Yes
+92,42.0,Human Resources,HR Executive,5056.0,22,2,1,5,1.0,2.0,No,Yes
+93,40.0,Sales,Research Scientist,5440.0,14,0,0,6,2.0,4.0,No,No
+94,36.0,Research & Development,Research Scientist,6957.0,10,7,1,3,1.0,3.0,No,Yes
+95,40.0,Research & Development,Data Analyst,7825.0,26,3,3,2,1.0,3.0,No,No
+96,37.0,Sales,Data Analyst,7689.0,27,3,2,7,4.0,1.0,No,Yes
+97,37.0,IT,Sales Executive,7209.0,13,7,4,5,1.0,2.0,No,No
+98,44.0,Human Resources,ML Engineer,8944.0,13,4,4,5,2.0,2.0,No,No
+99,40.0,IT,Data Analyst,15057.0,19,8,6,3,4.0,4.0,No,No
+100,35.0,Sales,ML Engineer,4244.0,11,1,0,0,3.0,4.0,No,No
+101,26.0,Sales,Research Scientist,7293.0,1,3,1,3,2.0,4.0,Yes,No
+102,40.0,Sales,Data Analyst,1606.0,21,3,2,6,2.0,4.0,No,Yes
+103,38.0,Research & Development,HR Executive,9907.0,10,9,2,2,1.0,1.0,No,Yes
+104,43.0,Human Resources,Software Engineer,9440.0,7,6,5,5,4.0,4.0,No,No
+105,47.0,Sales,Sales Executive,8076.0,7,0,0,0,2.0,3.0,Yes,Yes
+106,36.0,Human Resources,HR Executive,5579.0,25,1,1,3,1.0,1.0,No,Yes
+107,36.0,Sales,Software Engineer,1500.0,14,7,1,5,3.0,3.0,No,Yes
+108,46.0,Sales,MLOps Engineer,4534.0,29,5,2,1,1.0,3.0,Yes,Yes
+109,26.0,IT,HR Executive,3051.0,9,14,8,5,4.0,4.0,No,Yes
+110,19.0,Sales,HR Executive,1500.0,13,0,0,2,1.0,2.0,No,Yes
+111,44.0,Research & Development,Research Scientist,1682.0,18,17,11,7,4.0,1.0,Yes,Yes
+112,34.0,Research & Development,ML Engineer,2202.0,9,0,0,5,2.0,1.0,No,Yes
+113,36.0,Research & Development,ML Engineer,3421.0,10,5,2,4,1.0,1.0,No,Yes
+114,18.0,IT,Software Engineer,2316.0,4,0,0,1,1.0,1.0,No,Yes
+115,28.0,Research & Development,Data Analyst,8458.0,27,6,6,6,1.0,2.0,No,Yes
+116,37.0,Research & Development,Sales Executive,8496.0,7,6,6,1,4.0,3.0,Yes,Yes
+117,46.0,Research & Development,HR Executive,5899.0,23,9,2,2,2.0,4.0,No,Yes
+118,31.0,Human Resources,ML Engineer,4812.0,15,4,4,5,1.0,2.0,Yes,Yes
+119,29.0,IT,ML Engineer,11879.0,20,8,7,7,1.0,3.0,No,Yes
+120,51.0,Sales,HR Executive,6285.5,7,7,1,3,1.0,1.0,No,Yes
+121,55.0,Research & Development,HR Executive,5118.0,5,8,1,3,1.0,2.0,Yes,Yes
+122,28.0,IT,HR Executive,8649.0,15,2,0,3,3.0,2.0,Yes,No
+123,33.0,Research & Development,MLOps Engineer,7913.0,21,1,1,2,2.0,4.0,No,No
+124,30.0,Research & Development,HR Executive,7300.0,17,4,4,3,1.0,2.0,No,Yes
+125,27.0,Sales,Research Scientist,13008.0,8,14,8,0,1.0,2.0,No,Yes
+126,40.0,Research & Development,ML Engineer,7643.0,6,13,7,5,2.0,4.0,No,Yes
+127,40.0,IT,ML Engineer,4725.0,26,5,4,4,4.0,1.0,No,Yes
+128,33.0,IT,Software Engineer,10859.0,4,1,1,5,1.0,4.0,Yes,Yes
+129,40.0,IT,HR Executive,11657.0,13,8,6,5,2.0,3.0,No,Yes
+130,48.0,Research & Development,Sales Executive,4148.0,25,1,0,4,3.0,4.0,No,Yes
+131,35.0,IT,Sales Executive,5366.0,11,13,13,1,4.0,4.0,Yes,No
+132,36.0,IT,ML Engineer,1500.0,19,2,0,7,3.0,4.0,No,Yes
+133,37.0,Research & Development,Research Scientist,11404.0,6,15,2,5,1.0,3.0,Yes,Yes
+134,34.0,IT,Sales Executive,7329.0,1,0,0,4,4.0,1.0,No,No
+135,40.0,Research & Development,Data Analyst,7515.0,7,14,14,4,2.0,1.0,No,Yes
+136,36.0,Sales,Software Engineer,14548.0,13,17,9,6,2.0,4.0,No,Yes
+137,41.0,IT,ML Engineer,1739.0,15,4,1,4,3.0,2.0,No,Yes
+138,35.0,Human Resources,Data Analyst,5132.0,4,5,1,2,1.0,3.0,No,Yes
+139,29.0,IT,Software Engineer,7125.0,14,1,0,1,4.0,4.0,Yes,No
+140,39.0,Sales,Data Analyst,4517.0,24,15,3,2,3.0,1.0,No,Yes
+141,36.0,Research & Development,HR Executive,8418.0,8,4,1,5,2.0,1.0,Yes,Yes
+142,34.0,IT,Software Engineer,5680.0,29,6,6,6,4.0,3.0,No,No
+143,42.0,Sales,Sales Executive,6285.5,17,2,0,7,1.0,2.0,No,Yes
+144,34.0,IT,Research Scientist,11273.0,12,4,4,5,4.0,1.0,Yes,No
+145,30.0,Sales,MLOps Engineer,4300.0,12,18,2,5,2.0,4.0,No,Yes
+146,29.0,IT,Research Scientist,2427.0,7,3,1,4,2.0,2.0,Yes,Yes
+147,36.0,IT,MLOps Engineer,6285.5,7,6,6,2,2.0,4.0,Yes,Yes
+148,35.0,IT,HR Executive,3052.0,11,5,2,4,3.0,1.0,Yes,No
+149,41.0,IT,Sales Executive,2763.0,27,3,3,0,3.0,3.0,Yes,Yes
+150,41.0,Sales,Sales Executive,7508.0,27,10,3,4,1.0,1.0,No,Yes
+151,21.0,Research & Development,Software Engineer,6662.0,2,0,0,3,4.0,2.0,Yes,Yes
+152,51.0,IT,Data Analyst,3592.0,16,0,0,6,4.0,4.0,No,No
+153,37.0,IT,Research Scientist,1500.0,22,1,0,3,4.0,4.0,No,No
+154,30.0,Human Resources,HR Executive,5150.0,8,6,3,2,3.0,4.0,No,No
+155,58.0,IT,Sales Executive,10669.0,19,7,0,1,4.0,2.0,No,No
+156,22.0,IT,MLOps Engineer,1500.0,9,5,3,1,2.0,4.0,No,No
+157,32.0,Sales,MLOps Engineer,6285.5,2,2,0,6,1.0,2.0,No,No
+158,24.0,IT,ML Engineer,7935.0,26,7,6,3,1.0,3.0,Yes,Yes
+159,38.0,IT,Software Engineer,4912.0,16,9,6,0,1.0,4.0,No,Yes
+160,35.0,Research & Development,Data Analyst,4650.0,27,20,2,6,4.0,1.0,No,Yes
+161,47.0,Sales,Research Scientist,6285.5,24,0,0,0,1.0,3.0,No,Yes
+162,32.0,Research & Development,Data Analyst,3630.0,23,1,0,2,1.0,2.0,Yes,Yes
+163,30.0,Research & Development,MLOps Engineer,9624.0,14,1,1,5,4.0,4.0,No,No
+164,52.0,Research & Development,Research Scientist,2383.0,18,3,2,5,1.0,3.0,Yes,Yes
+165,44.0,Research & Development,Software Engineer,5411.0,14,5,0,4,4.0,3.0,Yes,No
+166,24.0,Human Resources,HR Executive,9332.0,12,4,3,4,3.0,3.0,No,No
+167,22.0,Research & Development,Research Scientist,6472.0,19,0,0,3,2.0,1.0,Yes,Yes
+168,31.0,Research & Development,Data Analyst,5434.0,19,1,0,2,1.0,2.0,No,Yes
+169,45.0,Research & Development,ML Engineer,4882.0,8,4,4,6,4.0,2.0,Yes,Yes
+170,47.0,IT,Research Scientist,9511.0,25,5,5,1,3.0,3.0,No,No
+171,40.0,Sales,HR Executive,5594.0,15,2,2,5,4.0,1.0,No,Yes
+172,25.0,Sales,MLOps Engineer,5154.0,23,1,0,7,1.0,1.0,No,Yes
+173,30.0,Sales,HR Executive,1610.0,25,0,0,1,2.0,1.0,Yes,Yes
+174,38.0,IT,Research Scientist,7324.0,27,1,1,1,3.0,4.0,No,No
+175,43.0,IT,Research Scientist,9036.0,4,4,2,2,4.0,2.0,Yes,Yes
+176,38.0,Human Resources,Data Analyst,3758.0,19,31,10,4,1.0,3.0,Yes,Yes
+177,32.0,Research & Development,MLOps Engineer,8610.0,16,6,2,0,3.0,4.0,Yes,Yes
+178,40.0,IT,Research Scientist,1500.0,2,18,14,4,1.0,3.0,Yes,Yes
+179,27.0,Sales,MLOps Engineer,6307.0,16,6,6,2,1.0,4.0,No,Yes
+180,33.0,Sales,Software Engineer,12114.0,20,7,1,3,3.0,3.0,Yes,No
+181,25.0,IT,Sales Executive,3867.0,25,4,1,2,3.0,1.0,Yes,Yes
+182,31.0,Research & Development,Sales Executive,2290.0,8,2,0,5,2.0,4.0,No,Yes
+183,30.0,Sales,ML Engineer,4993.0,21,0,0,3,3.0,2.0,Yes,Yes
+184,43.0,Human Resources,Software Engineer,8210.0,1,1,0,2,1.0,2.0,Yes,Yes
+185,38.0,Human Resources,Data Analyst,7867.0,13,3,3,6,3.0,4.0,Yes,Yes
+186,36.0,Research & Development,Sales Executive,4169.0,29,3,2,7,4.0,4.0,Yes,Yes
+187,47.0,Sales,Sales Executive,8805.0,14,1,0,0,4.0,1.0,No,Yes
+188,37.0,Research & Development,MLOps Engineer,1832.0,8,6,3,1,1.0,4.0,No,Yes
+189,32.0,Research & Development,ML Engineer,9078.0,1,4,3,5,2.0,1.0,No,Yes
+190,54.0,Research & Development,Software Engineer,8811.0,11,5,1,2,2.0,3.0,No,Yes
+191,60.0,Research & Development,Research Scientist,4774.0,4,10,6,1,1.0,2.0,No,Yes
+192,40.0,Research & Development,MLOps Engineer,6386.0,6,3,3,0,2.0,4.0,No,Yes
+193,37.0,Sales,ML Engineer,1500.0,11,0,0,2,1.0,4.0,No,Yes
+194,46.0,Sales,Software Engineer,4297.0,1,5,0,6,1.0,3.0,No,Yes
+195,44.0,Research & Development,Sales Executive,11902.0,13,4,0,6,1.0,4.0,Yes,Yes
+196,49.0,IT,HR Executive,7866.0,25,17,9,0,2.0,3.0,Yes,Yes
+197,37.0,Research & Development,Data Analyst,6654.0,2,1,0,3,4.0,2.0,No,Yes
+198,40.0,Research & Development,Software Engineer,5176.0,15,1,1,7,4.0,2.0,No,Yes
+199,48.0,Sales,Sales Executive,7879.0,12,1,0,5,1.0,3.0,Yes,Yes
+200,36.0,Sales,ML Engineer,6285.5,8,6,1,1,2.0,1.0,No,Yes
+201,28.0,Research & Development,MLOps Engineer,10865.0,27,4,2,0,2.0,2.0,No,Yes
+202,34.0,Research & Development,Sales Executive,8183.0,18,2,1,0,3.0,4.0,Yes,Yes
+203,27.0,Human Resources,HR Executive,4860.0,28,9,8,2,2.0,4.0,Yes,Yes
+204,38.0,Research & Development,Sales Executive,5746.0,8,0,0,2,3.0,2.0,No,No
+205,34.0,Human Resources,Sales Executive,4980.0,24,20,10,7,2.0,4.0,Yes,Yes
+206,37.0,Research & Development,HR Executive,6824.0,21,11,7,7,1.0,1.0,No,Yes
+207,42.0,Sales,Research Scientist,2728.0,19,8,3,7,4.0,4.0,No,Yes
+208,28.0,IT,Sales Executive,1622.0,29,3,1,1,1.0,1.0,No,Yes
+209,47.0,Sales,HR Executive,1500.0,22,11,5,6,3.0,2.0,No,Yes
+210,18.0,Human Resources,ML Engineer,8171.0,12,0,0,1,2.0,2.0,Yes,Yes
+211,40.0,Research & Development,Sales Executive,6944.0,12,0,0,7,1.0,2.0,Yes,Yes
+212,37.0,Research & Development,Research Scientist,7770.0,5,4,4,1,3.0,2.0,No,Yes
+213,47.0,Sales,MLOps Engineer,15503.0,21,3,3,5,1.0,1.0,Yes,Yes
+214,33.0,IT,MLOps Engineer,6546.0,24,0,0,7,1.0,2.0,No,Yes
+215,37.0,Sales,HR Executive,7917.0,2,6,2,2,4.0,3.0,Yes,Yes
+216,18.0,Research & Development,Software Engineer,7093.0,14,2,2,5,4.0,4.0,No,No
+217,37.0,Sales,Software Engineer,9453.0,25,17,5,4,2.0,1.0,No,Yes
+218,35.0,Human Resources,Software Engineer,8780.0,7,1,1,6,3.0,1.0,No,Yes
+219,39.0,Sales,HR Executive,3006.0,15,3,0,3,3.0,4.0,No,Yes
+220,29.0,Sales,MLOps Engineer,6098.0,25,5,0,0,4.0,1.0,Yes,Yes
+221,36.0,IT,MLOps Engineer,4690.0,27,14,2,5,4.0,3.0,No,No
+222,19.0,Research & Development,Software Engineer,3393.0,25,0,0,4,1.0,3.0,No,Yes
+223,45.0,Human Resources,Software Engineer,8515.0,23,1,1,0,3.0,2.0,No,Yes
+224,28.0,IT,Software Engineer,10384.0,7,5,3,3,3.0,1.0,No,Yes
+225,34.0,IT,MLOps Engineer,10468.0,2,5,2,1,2.0,2.0,Yes,Yes
+226,27.0,Sales,MLOps Engineer,3059.0,23,2,1,1,1.0,4.0,No,Yes
+227,43.0,Research & Development,Software Engineer,4896.0,15,7,7,6,4.0,3.0,Yes,Yes
+228,33.0,IT,ML Engineer,1500.0,14,5,0,2,2.0,4.0,No,No
+229,30.0,Sales,Sales Executive,6556.0,17,3,3,2,1.0,2.0,No,No
+230,18.0,IT,ML Engineer,12857.0,21,6,4,7,4.0,3.0,Yes,Yes
+231,44.0,Research & Development,MLOps Engineer,6492.0,8,5,5,0,1.0,4.0,No,Yes
+232,35.0,Research & Development,Software Engineer,8435.0,9,4,1,1,2.0,2.0,No,Yes
+233,40.0,Human Resources,Research Scientist,12473.0,12,3,2,3,3.0,2.0,Yes,Yes
+234,41.0,IT,ML Engineer,5751.0,21,4,4,2,3.0,2.0,No,Yes
+235,32.0,Research & Development,HR Executive,7009.0,12,2,1,6,1.0,1.0,No,Yes
+236,41.0,Research & Development,Sales Executive,6340.0,20,0,0,3,1.0,4.0,No,Yes
+237,21.0,Sales,HR Executive,7861.0,3,10,1,2,4.0,4.0,No,No
+238,37.0,IT,HR Executive,3204.0,5,15,10,3,2.0,1.0,No,Yes
+239,50.0,Sales,Data Analyst,3644.0,8,8,5,3,3.0,3.0,No,Yes
+240,40.0,IT,Research Scientist,11435.0,27,4,0,6,2.0,2.0,No,No
+241,22.0,Research & Development,Data Analyst,1500.0,16,5,4,0,4.0,4.0,No,Yes
+242,28.0,Research & Development,Research Scientist,1841.0,12,3,1,3,2.0,4.0,Yes,Yes
+243,36.0,Research & Development,Software Engineer,4104.0,19,6,4,6,4.0,4.0,No,No
+244,50.0,Research & Development,MLOps Engineer,3048.0,12,2,0,3,1.0,2.0,No,Yes
+245,34.0,Sales,Software Engineer,8560.0,1,8,6,3,4.0,4.0,No,No
+246,32.0,IT,Data Analyst,1500.0,1,3,3,6,4.0,4.0,Yes,No
+247,35.0,Sales,Software Engineer,5284.0,8,4,4,5,2.0,2.0,No,Yes
+248,31.0,IT,HR Executive,8198.0,24,1,0,1,1.0,2.0,Yes,Yes
+249,48.0,Sales,HR Executive,1500.0,23,9,7,1,4.0,2.0,No,Yes
+250,27.0,IT,HR Executive,9840.0,16,9,5,5,2.0,3.0,No,No
+251,44.0,Sales,Data Analyst,7901.0,24,5,1,7,3.0,2.0,No,No
+252,26.0,Sales,Sales Executive,7066.0,14,2,2,0,3.0,3.0,Yes,Yes
+253,31.0,Sales,Software Engineer,12944.0,21,3,1,0,3.0,3.0,No,No
+254,33.0,Research & Development,Research Scientist,6285.5,18,8,4,0,4.0,4.0,No,No
+255,46.0,Research & Development,Sales Executive,2817.0,13,1,0,0,1.0,1.0,No,Yes
+256,42.0,Human Resources,Data Analyst,4069.0,29,0,0,7,3.0,3.0,Yes,Yes
+257,52.0,IT,HR Executive,8518.0,14,4,3,2,1.0,3.0,No,Yes
+258,41.0,Sales,Software Engineer,8253.0,8,11,2,7,2.0,4.0,Yes,Yes
+259,32.0,Research & Development,Research Scientist,4692.0,22,3,1,7,2.0,3.0,No,Yes
+260,34.0,Research & Development,Sales Executive,3505.0,12,0,0,1,3.0,4.0,No,Yes
+261,31.0,Sales,Data Analyst,4631.0,16,1,0,0,1.0,2.0,No,Yes
+262,23.0,Research & Development,Research Scientist,6532.0,6,0,0,1,2.0,4.0,Yes,Yes
+263,45.0,IT,MLOps Engineer,6123.0,19,0,0,3,3.0,4.0,No,No
+264,46.0,Research & Development,Sales Executive,2841.0,26,0,0,1,2.0,4.0,No,Yes
+265,49.0,Sales,Data Analyst,6286.0,21,0,0,6,2.0,2.0,No,Yes
+266,29.0,Human Resources,MLOps Engineer,8285.0,27,6,5,4,2.0,3.0,No,Yes
+267,19.0,Research & Development,Sales Executive,4619.0,29,0,0,1,1.0,4.0,Yes,Yes
+268,36.0,IT,HR Executive,5109.0,23,0,0,6,2.0,1.0,Yes,Yes
+269,31.0,Sales,HR Executive,9925.0,4,3,3,2,3.0,4.0,Yes,Yes
+270,32.0,Research & Development,Research Scientist,6570.0,12,5,1,6,2.0,1.0,No,Yes
+271,40.0,IT,HR Executive,2930.0,15,1,1,0,3.0,3.0,Yes,Yes
+272,45.0,IT,MLOps Engineer,5409.0,4,1,1,1,4.0,3.0,No,No
+273,21.0,Human Resources,ML Engineer,12249.0,10,0,0,0,2.0,4.0,No,Yes
+274,40.0,IT,Research Scientist,9142.0,28,10,2,3,4.0,4.0,Yes,No
+275,38.0,Research & Development,ML Engineer,6403.0,25,3,3,3,2.0,4.0,No,Yes
+276,55.0,IT,MLOps Engineer,6392.0,6,0,0,1,1.0,2.0,No,Yes
+277,29.0,IT,Research Scientist,6185.0,15,2,2,0,3.0,4.0,Yes,Yes
+278,38.0,Research & Development,MLOps Engineer,8742.0,5,3,0,1,3.0,2.0,No,Yes
+279,57.0,Research & Development,Research Scientist,8906.0,16,0,0,5,2.0,1.0,No,No
+280,34.0,Human Resources,HR Executive,5025.0,4,1,1,6,2.0,1.0,No,Yes
+281,18.0,Research & Development,Data Analyst,3832.0,14,22,5,2,2.0,1.0,Yes,Yes
+282,36.0,IT,ML Engineer,10320.0,10,6,6,0,1.0,3.0,No,Yes
+283,35.0,Human Resources,Data Analyst,5192.0,20,0,0,5,3.0,4.0,Yes,Yes
+284,28.0,Research & Development,MLOps Engineer,2515.0,4,4,1,3,2.0,1.0,No,Yes
+285,59.0,IT,Data Analyst,7397.0,18,0,0,1,1.0,4.0,No,Yes
+286,43.0,Human Resources,HR Executive,1500.0,6,4,1,2,2.0,2.0,Yes,Yes
+287,32.0,Sales,Software Engineer,7039.0,29,0,0,0,2.0,4.0,No,Yes
+288,53.0,Sales,Research Scientist,13546.0,17,2,1,7,2.0,4.0,No,No
+289,37.0,Research & Development,Sales Executive,3654.0,1,14,14,0,4.0,2.0,No,Yes
+290,30.0,Sales,HR Executive,7667.0,23,0,0,3,1.0,3.0,No,Yes
+291,40.0,IT,MLOps Engineer,4156.0,19,4,0,0,1.0,3.0,No,Yes
+292,41.0,Research & Development,Software Engineer,3726.0,5,6,0,4,1.0,3.0,No,Yes
+293,52.0,IT,Data Analyst,7964.0,24,2,1,2,2.0,4.0,No,No
+294,30.0,Research & Development,Research Scientist,8868.0,28,2,0,5,1.0,2.0,No,Yes
+295,46.0,Research & Development,MLOps Engineer,9218.0,24,4,4,0,4.0,2.0,No,Yes
+296,23.0,Sales,Software Engineer,1712.0,17,6,4,1,2.0,2.0,Yes,Yes
+297,37.0,Sales,HR Executive,1943.0,5,11,7,1,2.0,2.0,No,Yes
+298,46.0,Research & Development,Data Analyst,10073.0,1,0,0,1,4.0,2.0,Yes,Yes
+299,46.0,Research & Development,HR Executive,11494.0,11,5,5,6,3.0,2.0,No,Yes
+300,36.0,IT,HR Executive,11784.0,10,0,0,0,4.0,1.0,Yes,No
+301,45.0,Human Resources,Sales Executive,7408.0,3,5,0,2,3.0,4.0,Yes,No
+302,38.0,Human Resources,HR Executive,9881.0,15,1,0,3,4.0,4.0,Yes,Yes
+303,37.0,Research & Development,HR Executive,4783.0,16,1,0,2,2.0,4.0,No,No
+304,34.0,IT,HR Executive,2538.0,1,2,0,0,3.0,4.0,Yes,No
+305,31.0,Research & Development,ML Engineer,1743.0,11,1,0,1,3.0,3.0,No,Yes
+306,41.0,Sales,ML Engineer,6286.0,25,0,0,5,3.0,4.0,Yes,No
+307,45.0,Research & Development,HR Executive,8964.0,17,15,14,5,2.0,3.0,No,Yes
+308,46.0,Sales,Sales Executive,10473.0,25,13,10,0,3.0,1.0,No,Yes
+309,39.0,Sales,HR Executive,5585.0,11,5,5,2,1.0,4.0,No,No
+310,34.0,Sales,HR Executive,5281.0,21,0,0,0,3.0,1.0,No,Yes
+311,38.0,Human Resources,MLOps Engineer,7971.0,3,3,3,3,2.0,3.0,No,No
+312,32.0,Sales,MLOps Engineer,1500.0,10,3,1,2,4.0,2.0,Yes,Yes
+313,39.0,IT,Data Analyst,1500.0,10,4,2,6,2.0,2.0,No,Yes
+314,34.0,IT,Sales Executive,6285.5,23,0,0,2,4.0,1.0,No,Yes
+315,32.0,IT,ML Engineer,2835.0,24,3,1,4,4.0,4.0,No,No
+316,40.0,IT,Research Scientist,1500.0,27,5,3,4,2.0,2.0,No,Yes
+317,36.0,Research & Development,Software Engineer,5246.0,7,11,8,5,3.0,3.0,Yes,Yes
+318,37.0,Research & Development,Research Scientist,16350.0,13,1,1,6,4.0,3.0,No,No
+319,49.0,IT,Software Engineer,8341.0,3,6,5,4,4.0,4.0,No,No
+320,37.0,Sales,Sales Executive,5025.0,29,2,1,3,3.0,1.0,Yes,Yes
+321,43.0,Sales,HR Executive,3198.0,10,2,2,7,3.0,3.0,Yes,Yes
+322,41.0,Research & Development,HR Executive,9777.0,9,10,1,2,1.0,4.0,No,Yes
+323,18.0,Research & Development,MLOps Engineer,4753.0,26,12,3,1,3.0,3.0,No,Yes
+324,39.0,Research & Development,ML Engineer,3156.0,9,0,0,2,4.0,1.0,No,Yes
+325,34.0,IT,Software Engineer,8725.0,12,1,1,7,2.0,3.0,No,Yes
+326,27.0,Research & Development,Data Analyst,10265.0,3,7,6,4,4.0,2.0,Yes,No
+327,37.0,Research & Development,ML Engineer,5407.0,28,3,0,1,2.0,2.0,Yes,Yes
+328,35.0,Research & Development,Data Analyst,7731.0,21,5,1,6,3.0,3.0,No,No
+329,38.0,Research & Development,HR Executive,5567.0,26,7,1,1,2.0,4.0,No,No
+330,26.0,Research & Development,Research Scientist,5615.0,7,7,2,5,3.0,1.0,No,Yes
+331,25.0,Sales,Software Engineer,9010.0,8,1,0,7,1.0,2.0,No,Yes
+332,36.0,Sales,Research Scientist,7151.0,7,0,0,1,2.0,1.0,No,Yes
+333,36.0,Sales,Software Engineer,7211.0,2,7,7,2,4.0,2.0,No,Yes
+334,33.0,Research & Development,Sales Executive,1500.0,3,4,3,1,1.0,1.0,No,Yes
+335,44.0,Human Resources,ML Engineer,6363.0,29,2,0,3,3.0,1.0,No,Yes
+336,20.0,Research & Development,Research Scientist,7718.0,20,5,1,2,4.0,3.0,Yes,No
+337,55.0,IT,MLOps Engineer,8707.0,12,6,5,6,4.0,4.0,No,No
+338,34.0,Research & Development,Software Engineer,1500.0,17,8,0,5,4.0,4.0,No,No
+339,33.0,Research & Development,Data Analyst,7398.0,24,15,9,3,1.0,2.0,No,Yes
+340,28.0,Research & Development,HR Executive,4996.0,25,4,3,0,4.0,4.0,No,No
+341,38.0,Research & Development,Software Engineer,1500.0,14,0,0,2,1.0,4.0,Yes,Yes
+342,31.0,IT,ML Engineer,6285.5,19,3,2,3,1.0,2.0,No,Yes
+343,36.0,IT,Data Analyst,3735.0,3,12,2,3,2.0,3.0,No,No
+344,30.0,Sales,HR Executive,5874.0,10,0,0,0,4.0,3.0,Yes,Yes
+345,35.0,IT,Software Engineer,9192.0,8,0,0,0,2.0,1.0,No,Yes
+346,45.0,IT,Data Analyst,8713.0,17,2,1,2,3.0,4.0,Yes,Yes
+347,37.0,IT,Research Scientist,4144.0,1,3,1,2,3.0,3.0,No,No
+348,33.0,Research & Development,ML Engineer,11047.0,9,3,0,7,3.0,2.0,No,Yes
+349,35.0,Human Resources,Software Engineer,4945.0,21,8,3,4,3.0,3.0,Yes,Yes
+350,41.0,Human Resources,Sales Executive,1796.0,21,0,0,6,2.0,3.0,Yes,Yes
+351,41.0,IT,Research Scientist,1500.0,25,0,0,1,1.0,3.0,No,Yes
+352,53.0,Research & Development,Research Scientist,5188.0,13,0,0,3,4.0,4.0,No,No
+353,27.0,Sales,HR Executive,3879.0,15,9,7,4,2.0,2.0,Yes,Yes
+354,36.0,Research & Development,ML Engineer,4656.0,7,1,0,4,2.0,3.0,No,Yes
+355,51.0,IT,ML Engineer,6276.0,16,4,0,3,1.0,2.0,No,Yes
+356,26.0,Human Resources,HR Executive,3788.0,10,2,0,4,1.0,2.0,No,Yes
+357,24.0,IT,Research Scientist,6800.0,14,5,1,2,3.0,1.0,No,Yes
+358,30.0,Sales,MLOps Engineer,1500.0,22,13,12,0,4.0,1.0,No,Yes
+359,26.0,IT,HR Executive,7960.0,20,0,0,0,1.0,3.0,No,Yes
+360,26.0,IT,MLOps Engineer,2568.0,15,2,0,0,1.0,2.0,Yes,Yes
+361,48.0,Sales,Sales Executive,5052.0,5,0,0,2,3.0,3.0,No,No
+362,27.0,Sales,ML Engineer,12768.0,26,1,1,7,1.0,2.0,No,Yes
+363,22.0,Sales,Software Engineer,2857.0,8,6,6,2,3.0,2.0,Yes,Yes
+364,34.0,Sales,Sales Executive,7883.0,6,1,1,7,1.0,3.0,Yes,Yes
+365,44.0,Sales,Software Engineer,2803.0,13,5,4,7,4.0,1.0,Yes,Yes
+366,41.0,Human Resources,ML Engineer,5434.0,24,7,0,0,1.0,2.0,No,Yes
+367,19.0,Research & Development,Data Analyst,6285.5,16,9,6,2,3.0,1.0,No,No
+368,31.0,IT,ML Engineer,8309.0,10,3,0,7,3.0,4.0,No,No
+369,27.0,IT,ML Engineer,12452.0,24,0,0,7,1.0,4.0,No,Yes
+370,39.0,Research & Development,ML Engineer,3679.0,19,2,1,7,3.0,2.0,No,Yes
+371,27.0,Research & Development,HR Executive,4124.0,18,3,0,3,3.0,1.0,Yes,Yes
+372,39.0,Sales,ML Engineer,5386.0,20,1,1,4,1.0,2.0,No,Yes
+373,52.0,Sales,ML Engineer,9886.0,16,12,10,7,4.0,2.0,No,No
+374,29.0,Human Resources,Sales Executive,5908.0,28,3,1,3,2.0,3.0,No,Yes
+375,38.0,Research & Development,Sales Executive,5891.0,19,2,1,1,3.0,4.0,No,No
+376,35.0,IT,Software Engineer,9612.0,1,4,1,3,4.0,4.0,No,No
+377,33.0,Research & Development,MLOps Engineer,6155.0,14,0,0,3,2.0,2.0,No,Yes
+378,40.0,Sales,ML Engineer,1500.0,21,9,9,0,2.0,2.0,No,Yes
+379,18.0,IT,Research Scientist,10376.0,17,2,2,7,3.0,4.0,No,No
+380,21.0,Sales,HR Executive,6715.0,5,3,3,0,4.0,4.0,Yes,No
+381,40.0,Research & Development,Data Analyst,3776.0,26,1,1,0,4.0,1.0,No,Yes
+382,37.0,Human Resources,Data Analyst,8414.0,23,0,0,5,3.0,1.0,No,Yes
+383,31.0,Research & Development,Software Engineer,9113.0,29,1,0,2,1.0,1.0,No,Yes
+384,30.0,IT,HR Executive,4368.0,8,4,3,3,1.0,2.0,No,Yes
+385,35.0,Research & Development,HR Executive,6285.5,23,3,2,3,2.0,3.0,No,Yes
+386,40.0,Sales,HR Executive,7764.0,5,2,2,0,4.0,2.0,Yes,Yes
+387,24.0,IT,HR Executive,2915.0,9,3,2,5,2.0,2.0,No,Yes
+388,29.0,IT,Research Scientist,7934.0,26,6,2,4,4.0,3.0,Yes,No
+389,58.0,Sales,Data Analyst,5213.0,27,2,0,7,3.0,1.0,Yes,Yes
+390,48.0,Sales,Data Analyst,1500.0,12,6,3,7,1.0,2.0,No,Yes
+391,34.0,IT,Research Scientist,5297.0,17,0,0,0,3.0,2.0,No,Yes
+392,37.0,Sales,Software Engineer,12516.0,22,5,3,3,2.0,4.0,No,No
+393,40.0,Sales,MLOps Engineer,9667.0,28,0,0,0,1.0,3.0,No,Yes
+394,38.0,IT,Sales Executive,6608.0,15,0,0,0,2.0,4.0,No,Yes
+395,38.0,IT,Research Scientist,4304.0,29,10,7,0,3.0,3.0,No,No
+396,45.0,IT,MLOps Engineer,5206.0,27,12,11,5,3.0,3.0,Yes,Yes
+397,29.0,Human Resources,Data Analyst,2050.0,28,2,0,4,4.0,1.0,No,Yes
+398,34.0,IT,Software Engineer,1500.0,15,0,0,7,2.0,1.0,No,Yes
+399,35.0,Human Resources,Software Engineer,3470.0,19,1,0,4,3.0,1.0,No,Yes
+400,35.0,IT,HR Executive,4418.0,14,3,1,3,4.0,4.0,No,Yes
+401,39.0,Sales,Research Scientist,7360.0,23,3,0,2,2.0,4.0,No,Yes
+402,30.0,Human Resources,Software Engineer,3233.0,6,2,0,2,1.0,3.0,Yes,Yes
+403,26.0,Research & Development,Research Scientist,3507.0,7,8,0,3,4.0,2.0,No,No
+404,36.0,Sales,ML Engineer,3371.0,17,5,5,4,4.0,2.0,Yes,Yes
+405,23.0,Research & Development,ML Engineer,5230.0,24,0,0,2,3.0,3.0,No,Yes
+406,31.0,Sales,Research Scientist,9076.0,28,8,1,3,4.0,2.0,No,No
+407,23.0,IT,Software Engineer,13306.0,18,14,4,2,4.0,4.0,Yes,No
+408,42.0,Research & Development,Software Engineer,2736.0,1,3,0,3,1.0,2.0,No,Yes
+409,25.0,Research & Development,Software Engineer,11914.0,12,0,0,6,2.0,2.0,No,Yes
+410,49.0,IT,Data Analyst,5923.0,13,0,0,7,3.0,3.0,No,Yes
+411,47.0,IT,Software Engineer,2986.0,29,8,6,4,1.0,3.0,No,Yes
+412,22.0,Research & Development,Sales Executive,13177.0,27,6,1,0,2.0,4.0,Yes,Yes
+413,18.0,Research & Development,Sales Executive,2727.0,14,3,0,5,1.0,3.0,No,Yes
+414,24.0,IT,HR Executive,4323.0,1,0,0,2,2.0,3.0,No,Yes
+415,31.0,IT,ML Engineer,5397.0,9,8,3,5,3.0,3.0,No,Yes
+416,30.0,Sales,ML Engineer,9153.0,23,6,4,5,4.0,3.0,No,No
+417,31.0,Human Resources,MLOps Engineer,5379.0,22,7,7,1,4.0,4.0,Yes,Yes
+418,32.0,Research & Development,HR Executive,1923.0,10,4,0,5,2.0,3.0,No,No
+419,42.0,Human Resources,HR Executive,3879.0,4,0,0,5,2.0,3.0,No,Yes
+420,21.0,Human Resources,Data Analyst,7614.0,6,6,2,2,2.0,4.0,No,Yes
+421,30.0,Sales,Sales Executive,12779.0,16,2,0,1,2.0,3.0,Yes,Yes
+422,43.0,Sales,Sales Executive,3116.0,16,1,0,6,4.0,2.0,No,No
+423,45.0,IT,Research Scientist,12733.0,5,0,0,0,2.0,3.0,No,Yes
+424,34.0,Research & Development,Research Scientist,5703.0,9,0,0,0,4.0,2.0,Yes,Yes
+425,41.0,Sales,HR Executive,1794.0,1,5,1,2,2.0,3.0,No,Yes
+426,32.0,Research & Development,HR Executive,7020.0,5,0,0,3,2.0,2.0,No,Yes
+427,32.0,Research & Development,ML Engineer,5475.0,3,0,0,0,4.0,4.0,No,Yes
+428,39.0,Human Resources,HR Executive,6654.0,11,1,0,1,4.0,2.0,No,Yes
+429,26.0,Human Resources,MLOps Engineer,5020.0,5,8,3,2,2.0,3.0,No,Yes
+430,42.0,IT,HR Executive,9461.0,1,0,0,1,2.0,1.0,No,Yes
+431,21.0,Sales,Data Analyst,7596.0,4,6,2,0,1.0,4.0,Yes,No
+432,31.0,Research & Development,HR Executive,3576.0,15,9,5,6,3.0,2.0,No,Yes
+433,40.0,Research & Development,HR Executive,3463.0,12,22,0,7,3.0,2.0,Yes,Yes
+434,30.0,Sales,HR Executive,3745.0,29,9,7,5,1.0,2.0,No,Yes
+435,48.0,Sales,Software Engineer,2666.0,6,0,0,5,2.0,1.0,Yes,Yes
+436,30.0,Sales,Research Scientist,4424.0,14,6,2,3,4.0,3.0,No,No
+437,43.0,Research & Development,HR Executive,9274.0,27,0,0,4,1.0,1.0,No,Yes
+438,33.0,IT,Research Scientist,4536.0,13,1,1,1,3.0,4.0,No,No
+439,39.0,Research & Development,ML Engineer,6322.0,4,0,0,3,3.0,4.0,Yes,Yes
+440,39.0,Research & Development,Software Engineer,14346.0,11,2,0,5,2.0,1.0,No,Yes
+441,36.0,IT,MLOps Engineer,6225.0,9,0,0,2,2.0,2.0,No,Yes
+442,44.0,Research & Development,Software Engineer,12747.0,13,6,4,1,1.0,2.0,Yes,Yes
+443,60.0,IT,MLOps Engineer,7788.0,18,0,0,5,1.0,4.0,No,Yes
+444,18.0,IT,Data Analyst,9002.0,6,5,0,3,2.0,2.0,Yes,Yes
+445,29.0,IT,Sales Executive,1883.0,10,1,1,7,4.0,4.0,No,Yes
+446,36.0,Sales,ML Engineer,9461.0,18,2,0,7,4.0,2.0,No,Yes
+447,32.0,IT,Research Scientist,4510.0,16,2,2,6,3.0,2.0,No,Yes
+448,18.0,Human Resources,Research Scientist,1676.0,12,12,3,0,2.0,3.0,Yes,Yes
+449,32.0,IT,MLOps Engineer,1895.0,18,4,4,1,3.0,3.0,Yes,Yes
+450,27.0,IT,Data Analyst,2990.0,17,1,0,1,1.0,1.0,Yes,Yes
+451,30.0,Research & Development,ML Engineer,13629.0,27,6,2,4,4.0,1.0,No,Yes
+452,34.0,IT,Data Analyst,8279.0,6,0,0,2,3.0,2.0,Yes,Yes
+453,26.0,Sales,HR Executive,2856.0,11,5,1,7,4.0,2.0,No,Yes
+454,39.0,Sales,Data Analyst,5279.0,2,4,3,5,3.0,4.0,No,Yes
+455,27.0,Research & Development,ML Engineer,8651.0,9,1,1,3,1.0,1.0,No,Yes
+456,38.0,IT,Sales Executive,3132.0,13,3,0,4,4.0,4.0,No,No
+457,47.0,Research & Development,HR Executive,7484.0,6,7,1,1,1.0,4.0,No,Yes
+458,47.0,Sales,HR Executive,10198.0,5,1,0,7,2.0,4.0,No,Yes
+459,39.0,Sales,Data Analyst,7797.0,2,16,4,7,4.0,3.0,Yes,No
+460,40.0,Human Resources,ML Engineer,3595.0,9,5,3,7,3.0,2.0,No,Yes
+461,42.0,Sales,MLOps Engineer,7390.0,17,1,1,6,2.0,2.0,No,Yes
+462,40.0,IT,Research Scientist,1500.0,10,3,2,0,2.0,4.0,No,No
+463,42.0,IT,Data Analyst,1500.0,18,0,0,6,4.0,4.0,No,Yes
+464,22.0,IT,Software Engineer,8000.0,6,6,5,4,2.0,3.0,Yes,Yes
+465,34.0,Human Resources,MLOps Engineer,1500.0,4,2,2,1,4.0,3.0,Yes,Yes
+466,24.0,Sales,Software Engineer,5032.0,25,4,1,1,4.0,3.0,Yes,No
+467,33.0,Research & Development,Research Scientist,6077.0,23,6,0,2,2.0,4.0,No,No
+468,36.0,Sales,MLOps Engineer,3800.0,29,0,0,7,3.0,3.0,No,Yes
+469,18.0,Human Resources,Software Engineer,2827.0,4,4,3,6,2.0,1.0,No,Yes
+470,37.0,Sales,Sales Executive,6755.0,16,9,0,4,1.0,4.0,No,Yes
+471,40.0,Sales,Research Scientist,10769.0,18,7,5,1,4.0,3.0,No,No
+472,40.0,Research & Development,Data Analyst,3055.0,5,0,0,2,2.0,3.0,Yes,Yes
+473,28.0,IT,HR Executive,7566.0,10,1,1,3,4.0,1.0,No,Yes
+474,57.0,Research & Development,Sales Executive,12121.0,24,2,2,3,4.0,1.0,Yes,Yes
+475,34.0,Sales,Sales Executive,6285.5,22,4,1,1,2.0,2.0,No,Yes
+476,42.0,Sales,Sales Executive,6209.0,13,0,0,1,4.0,2.0,No,Yes
+477,28.0,Sales,ML Engineer,4611.0,26,10,4,6,2.0,3.0,No,Yes
+478,18.0,Sales,HR Executive,6894.0,10,0,0,1,3.0,3.0,No,No
+479,36.0,IT,MLOps Engineer,3435.0,17,3,3,5,4.0,3.0,No,No
+480,51.0,Research & Development,HR Executive,1500.0,22,6,4,2,3.0,3.0,No,Yes
+481,28.0,IT,Software Engineer,11377.0,3,4,3,4,2.0,2.0,Yes,Yes
+482,40.0,Human Resources,ML Engineer,6494.0,9,2,2,5,4.0,2.0,No,Yes
+483,49.0,IT,Data Analyst,4399.0,11,1,1,1,4.0,3.0,No,No
+484,34.0,Research & Development,Research Scientist,1824.0,9,2,0,6,2.0,1.0,Yes,Yes
+485,29.0,Sales,Software Engineer,9739.0,21,1,1,5,3.0,3.0,No,Yes
+486,34.0,IT,ML Engineer,1500.0,10,3,2,3,4.0,4.0,No,No
+487,30.0,Sales,ML Engineer,9260.0,2,11,0,6,2.0,4.0,No,No
+488,39.0,Sales,Data Analyst,12483.0,18,17,3,6,2.0,2.0,No,No
+489,39.0,Sales,Sales Executive,8360.0,7,0,0,4,1.0,1.0,No,No
+490,44.0,Research & Development,Data Analyst,4185.0,20,0,0,2,2.0,2.0,Yes,Yes
+491,23.0,Research & Development,ML Engineer,7544.0,4,1,1,6,4.0,1.0,No,No
+492,28.0,Research & Development,Sales Executive,11616.0,23,0,0,6,1.0,2.0,No,No
+493,45.0,IT,HR Executive,6971.0,11,5,2,2,3.0,1.0,No,Yes
+494,35.0,Sales,ML Engineer,11154.0,24,1,1,2,4.0,2.0,No,No
+495,37.0,Research & Development,HR Executive,8342.0,22,3,2,4,2.0,3.0,Yes,Yes
+496,27.0,Sales,Software Engineer,10459.0,22,0,0,1,1.0,4.0,Yes,Yes
+497,30.0,Sales,HR Executive,6395.0,27,7,0,1,4.0,1.0,No,No
+498,44.0,Sales,ML Engineer,6031.0,24,9,6,1,1.0,4.0,No,Yes
+499,32.0,Human Resources,Data Analyst,9125.0,7,14,8,0,2.0,2.0,No,Yes
+500,34.0,Sales,HR Executive,4164.0,20,1,0,4,4.0,4.0,No,Yes
+501,28.0,IT,MLOps Engineer,1500.0,14,0,0,5,3.0,3.0,No,No
+502,47.0,Sales,Data Analyst,9060.0,25,1,1,3,2.0,2.0,No,Yes
+503,27.0,Research & Development,ML Engineer,4627.0,18,0,0,4,3.0,1.0,No,Yes
+504,34.0,Human Resources,ML Engineer,5875.0,9,0,0,7,2.0,2.0,Yes,Yes
+505,57.0,Sales,Research Scientist,10065.0,6,0,0,4,3.0,2.0,No,Yes
+506,41.0,IT,Research Scientist,6314.0,4,3,2,7,2.0,4.0,No,No
+507,35.0,IT,HR Executive,3961.0,3,14,8,2,3.0,3.0,No,Yes
+508,35.0,IT,HR Executive,8201.0,6,2,1,4,1.0,3.0,No,Yes
+509,41.0,IT,Sales Executive,3414.0,9,1,1,5,1.0,1.0,No,Yes
+510,49.0,Human Resources,ML Engineer,4036.0,19,2,0,3,1.0,4.0,No,Yes
+511,44.0,Sales,ML Engineer,9031.0,22,4,4,1,1.0,1.0,No,Yes
+512,28.0,Human Resources,Software Engineer,7990.0,19,0,0,6,1.0,3.0,No,Yes
+513,33.0,Human Resources,Research Scientist,9342.0,26,1,0,1,1.0,4.0,No,Yes
+514,24.0,IT,Research Scientist,6368.0,1,3,0,0,4.0,3.0,No,Yes
+515,28.0,Human Resources,ML Engineer,6963.0,11,11,10,4,4.0,3.0,No,No
+516,45.0,Research & Development,Sales Executive,5946.0,17,0,0,6,4.0,3.0,No,No
+517,41.0,IT,MLOps Engineer,7941.0,6,2,1,0,3.0,4.0,No,Yes
+518,26.0,IT,Sales Executive,5297.0,13,5,4,6,3.0,3.0,No,Yes
+519,29.0,Research & Development,ML Engineer,11757.0,4,0,0,0,2.0,1.0,No,Yes
+520,28.0,Sales,Sales Executive,7875.0,19,7,2,2,1.0,4.0,No,No
+521,52.0,IT,ML Engineer,6192.0,20,3,2,1,3.0,4.0,No,No
+522,30.0,IT,Data Analyst,5132.0,29,3,1,6,4.0,2.0,No,No
+523,42.0,Human Resources,Research Scientist,7908.0,2,1,1,2,1.0,1.0,Yes,Yes
+524,50.0,Research & Development,Research Scientist,1500.0,24,25,7,7,2.0,4.0,No,Yes
+525,43.0,Research & Development,MLOps Engineer,1500.0,26,2,2,6,3.0,1.0,Yes,Yes
+526,35.0,IT,MLOps Engineer,7090.0,23,3,3,4,2.0,4.0,No,Yes
+527,39.0,Human Resources,Software Engineer,4556.0,22,4,0,2,2.0,2.0,No,Yes
+528,40.0,Human Resources,HR Executive,13133.0,9,3,1,2,1.0,1.0,Yes,Yes
+529,42.0,Sales,ML Engineer,5558.0,8,16,10,3,3.0,3.0,No,Yes
+530,20.0,Research & Development,Data Analyst,6571.0,14,6,2,7,3.0,3.0,Yes,Yes
+531,44.0,IT,Sales Executive,1500.0,23,0,0,0,2.0,4.0,No,Yes
+532,38.0,IT,Software Engineer,7029.0,9,1,1,5,4.0,2.0,No,Yes
+533,37.0,IT,Data Analyst,1500.0,14,2,0,1,3.0,3.0,No,No
+534,42.0,Sales,HR Executive,1500.0,11,0,0,3,1.0,1.0,No,Yes
+535,47.0,IT,HR Executive,5841.0,16,6,5,5,1.0,2.0,No,No
+536,33.0,Sales,Software Engineer,6132.0,24,1,1,4,3.0,4.0,No,Yes
+537,39.0,IT,Software Engineer,4402.0,8,0,0,7,1.0,3.0,No,Yes
+538,52.0,Research & Development,MLOps Engineer,11311.0,22,2,1,6,2.0,3.0,Yes,No
+539,57.0,Sales,Research Scientist,4854.0,28,7,1,6,1.0,3.0,No,Yes
+540,35.0,IT,Software Engineer,8132.0,27,0,0,2,3.0,3.0,No,Yes
+541,40.0,Research & Development,Data Analyst,7011.0,20,0,0,0,1.0,2.0,No,Yes
+542,33.0,IT,HR Executive,7208.0,12,3,2,0,2.0,3.0,No,No
+543,24.0,Sales,ML Engineer,8179.0,8,1,1,6,1.0,3.0,No,Yes
+544,46.0,Sales,Research Scientist,6285.5,14,2,2,7,3.0,1.0,No,Yes
+545,47.0,IT,HR Executive,8189.0,15,3,0,0,1.0,1.0,No,Yes
+546,38.0,IT,Data Analyst,2022.0,21,5,5,0,4.0,1.0,No,Yes
+547,33.0,IT,Data Analyst,11937.0,23,0,0,1,3.0,4.0,No,No
+548,54.0,Research & Development,Software Engineer,8018.0,9,16,6,3,1.0,1.0,Yes,Yes
+549,38.0,Research & Development,HR Executive,3471.0,8,0,0,1,4.0,2.0,No,Yes
+550,35.0,Sales,Software Engineer,6982.0,26,0,0,3,1.0,4.0,No,Yes
+551,25.0,IT,Sales Executive,8569.0,4,11,0,3,2.0,3.0,No,No
+552,26.0,Human Resources,HR Executive,8638.0,6,6,0,5,3.0,1.0,Yes,No
+553,44.0,Sales,MLOps Engineer,1500.0,4,0,0,1,2.0,1.0,No,Yes
+554,28.0,Human Resources,MLOps Engineer,5067.0,26,1,0,7,3.0,4.0,No,Yes
+555,36.0,Human Resources,Sales Executive,7117.0,14,2,2,3,1.0,4.0,No,Yes
+556,32.0,Sales,Sales Executive,5776.0,28,1,0,4,4.0,1.0,No,Yes
+557,32.0,IT,Data Analyst,5401.0,5,3,2,3,2.0,4.0,Yes,Yes
+558,39.0,Human Resources,Software Engineer,1500.0,23,13,4,6,3.0,2.0,No,Yes
+559,43.0,Research & Development,Data Analyst,3072.0,1,0,0,4,2.0,1.0,No,Yes
+560,35.0,Human Resources,HR Executive,6811.0,29,6,2,6,4.0,3.0,No,No
+561,40.0,Research & Development,Data Analyst,8403.0,16,0,0,5,3.0,4.0,No,No
+562,24.0,Sales,Research Scientist,4632.0,23,0,0,0,1.0,1.0,Yes,Yes
+563,36.0,Research & Development,MLOps Engineer,4620.0,17,1,1,6,1.0,2.0,Yes,Yes
+564,41.0,IT,MLOps Engineer,9017.0,5,3,0,3,1.0,2.0,No,Yes
+565,37.0,Research & Development,HR Executive,13681.0,15,0,0,3,1.0,4.0,No,No
+566,27.0,IT,ML Engineer,12842.0,15,0,0,4,3.0,2.0,No,Yes
+567,46.0,IT,ML Engineer,6345.0,28,9,8,1,1.0,3.0,No,Yes
+568,34.0,IT,Software Engineer,5542.0,14,1,0,3,2.0,4.0,Yes,Yes
+569,26.0,IT,Research Scientist,10005.0,1,0,0,4,2.0,1.0,No,Yes
+570,41.0,IT,Sales Executive,6003.0,22,11,5,3,2.0,1.0,No,Yes
+571,18.0,Research & Development,Sales Executive,7743.0,28,9,6,7,3.0,3.0,No,Yes
+572,18.0,Human Resources,Sales Executive,4254.0,10,2,2,5,4.0,2.0,No,No
+573,33.0,Research & Development,HR Executive,4272.0,1,9,0,4,1.0,4.0,Yes,Yes
+574,36.0,Human Resources,Research Scientist,5403.0,25,8,6,6,2.0,1.0,No,Yes
+575,37.0,Research & Development,Data Analyst,9459.0,17,18,6,2,4.0,3.0,No,No
+576,52.0,IT,Research Scientist,1857.0,15,5,4,3,4.0,3.0,No,No
+577,41.0,IT,ML Engineer,6978.0,25,7,4,3,2.0,2.0,No,Yes
+578,49.0,Sales,Research Scientist,4310.0,10,1,0,7,1.0,1.0,No,Yes
+579,31.0,Research & Development,Data Analyst,5394.0,13,6,4,6,3.0,3.0,No,Yes
+580,31.0,Sales,Software Engineer,6150.0,11,2,0,4,3.0,3.0,No,Yes
+581,32.0,Research & Development,MLOps Engineer,10792.0,4,1,1,5,1.0,1.0,No,Yes
+582,34.0,Sales,Data Analyst,7268.0,3,2,0,3,2.0,4.0,No,No
+583,41.0,Research & Development,HR Executive,2485.0,7,15,1,3,2.0,1.0,Yes,Yes
+584,41.0,Research & Development,Research Scientist,9102.0,26,26,3,6,3.0,2.0,No,No
+585,26.0,IT,MLOps Engineer,3154.0,11,0,0,6,1.0,3.0,No,Yes
+586,26.0,Sales,Research Scientist,9930.0,21,2,0,7,2.0,1.0,No,Yes
+587,55.0,Research & Development,MLOps Engineer,1500.0,12,10,6,5,2.0,4.0,No,Yes
+588,54.0,Research & Development,Sales Executive,9919.0,14,14,14,0,4.0,1.0,No,Yes
+589,35.0,Sales,Data Analyst,11537.0,25,7,0,0,3.0,2.0,Yes,Yes
+590,24.0,Human Resources,MLOps Engineer,3546.0,26,5,5,7,2.0,3.0,No,Yes
+591,42.0,IT,Sales Executive,13746.0,5,6,4,7,3.0,1.0,No,Yes
+592,29.0,Research & Development,ML Engineer,5594.0,29,3,2,0,4.0,1.0,No,Yes
+593,51.0,IT,Data Analyst,6285.5,4,1,1,7,4.0,2.0,No,Yes
+594,33.0,Research & Development,MLOps Engineer,8291.0,17,0,0,2,4.0,1.0,No,Yes
+595,36.0,Sales,ML Engineer,13200.0,4,19,7,3,3.0,1.0,No,No
+596,28.0,Research & Development,Research Scientist,9429.0,1,1,1,4,3.0,3.0,No,No
+597,37.0,Human Resources,Data Analyst,2950.0,18,11,2,5,1.0,4.0,No,Yes
+598,18.0,Sales,MLOps Engineer,9876.0,9,1,1,6,3.0,2.0,No,No
+599,38.0,Sales,Sales Executive,7219.0,24,0,0,5,4.0,1.0,Yes,Yes
+600,48.0,Sales,MLOps Engineer,12176.0,15,3,0,5,1.0,2.0,Yes,Yes
