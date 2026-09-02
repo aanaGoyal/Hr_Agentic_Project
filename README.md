@@ -2,14 +2,9 @@
 
 An end-to-end HR analytics system that predicts employee attrition, diagnoses skill gaps, and recommends upskilling — built from raw CSVs to a served FastAPI backend and Streamlit dashboard.
 
-<!-- Optional badges — remove or edit as needed
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-backend-009688)
-![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-FF4B4B)
-![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
--->
-
 The project is organized as four sequential milestones. Each stage consumes the previous stage's saved output, so the pipeline runs start to finish without recomputation:
+
+![Dashboard overview](docs/screenshots/dashboard.png)
 
 ```
 Day 1: Data Foundation  →  Day 2: Machine Learning  →  Day 3: Workforce Intelligence  →  Day 4: Application
@@ -253,8 +248,6 @@ pytest tests/
 
 ## 8. Screenshots
 
-> Screenshots live in `docs/screenshots/` in this repo. If you're viewing this on GitHub, make sure the image files below are committed at those exact paths.
-
 ### Dashboard Overview
 ![Dashboard overview](docs/screenshots/dashboard.png)
 
@@ -267,54 +260,7 @@ pytest tests/
 ### Career Path / Upskilling Recommendations
 ![Career path recommendations](docs/screenshots/career_path.png)
 
-## 9. Troubleshooting (Problem & Solution)
-
-Real issues encountered while setting up this project, documented so future contributors (or future you) don't have to re-debug them.
-
-### Problem: `git push` rejected — "Push cannot contain secrets"
-GitHub's push protection blocked a push because a real Groq API key was committed in files like `.env.example` and `policy_service.py`.
-
-**Solution:** Revoke the exposed key immediately at [console.groq.com](https://console.groq.com/keys). Then remove the secret from git **history** (not just the current files) using `git filter-repo --replace-text`, or — for early-stage repos with no other collaborators — wipe and reinitialize `.git` entirely. Keep real secrets only in a git-ignored `.env` file, never in tracked files.
-
-### Problem: `NameError: name 'GROQ_API_KEY' is not defined`
-The code loaded the key into a variable named `api_key`, but referenced `GROQ_API_KEY` (undefined) later in the request headers.
-
-**Solution:** Use the same variable name consistently:
-```python
-api_key = os.getenv("GROQ_API_KEY")
-headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-```
-
-### Problem: `HTTPError: 401 Client Error: Unauthorized`
-The Groq API rejected requests even after the `NameError` was fixed.
-
-**Solution:** Caused by either (a) `.env` not being found, so `api_key` was `None`, or (b) an old/revoked key still sitting in `.env`. Confirmed by temporarily printing `api_key[:10]`. Fixed by generating a fresh key at Groq and pointing `load_dotenv()` to the correct path:
-```python
-from pathlib import Path
-from dotenv import load_dotenv
-
-env_path = Path(__file__).resolve().parents[2] / ".env"
-load_dotenv(dotenv_path=env_path)
-```
-
-### Problem: Worked in Jupyter notebook, still failed in Streamlit
-Same `NameError`/401 errors kept reappearing in the Streamlit dashboard even after the notebook ran successfully.
-
-**Solution:** Two separate causes:
-1. A notebook cell was **regenerating `policy_service.py` from a hardcoded string** on every run, silently overwriting manual fixes made directly in the file. Fixed the bug at the source (inside the string in the notebook cell), then re-ran the cell.
-2. Streamlit was still running an old process from before the fix. Stopped it fully (`Ctrl+C`), cleared Streamlit's cache, and restarted from the project root (`streamlit run frontend\dashboard.py`) so it picked up the corrected code and `.env`.
-
-### Problem: `.env` not found by `load_dotenv()`
-`load_dotenv()` with no arguments only searches the current working directory, which differs depending on whether you launch from a notebook, `cmd`, or Streamlit.
-
-**Solution:** Don't rely on the default lookup — resolve the path explicitly relative to the file itself (see snippet above), and verify with `env_path.exists()` before debugging further downstream.
-
-### Problem: `Remove-Item` / `rmdir` not recognized
-PowerShell-only commands (`Remove-Item`) were run inside Command Prompt (`cmd.exe`), which doesn't recognize them.
-
-**Solution:** Either use the `cmd`-native equivalent (`rmdir /s /q .git`), or switch to PowerShell first by typing `powershell` in the existing terminal.
-
-## 10. Design Decisions Worth Noting
+## 9. Design Decisions Worth Noting
 
 - **Recall over accuracy for attrition**: intentional trade-off, documented in Day 2 — the cost of missing a real leaver outweighs the cost of a false positive.
 - **Full pipelines saved, not bare models**: `attrition_pipeline.joblib` bundles preprocessing + model, so any caller can pass a raw record without re-implementing encoding/scaling.
@@ -322,7 +268,7 @@ PowerShell-only commands (`Remove-Item`) were run inside Command Prompt (`cmd.ex
 - **Validation before modeling**: rules defined in Day 1 (age ranges, rating scales) are reused verbatim in the Day 4 API schema, so what counts as "valid data" is defined once and enforced consistently end to end.
 - **Grounded policy answers**: the HR Policy Q&A feature retrieves the top matching policy excerpts via TF-IDF before calling the LLM, and explicitly instructs it to answer only from those excerpts (and flag conflicts) — reducing hallucinated policy claims.
 
-## 11. Limitations & Next Steps
+## 10. Limitations & Next Steps
 
 - Dataset is ~600 employees (synthetic-scale) — fine for an MVP/demo, thin for production-grade confidence intervals.
 - The performance-trend classifier (Day 2, bonus) underperforms its baseline and should be dropped or revisited with a better-defined label before any use.
